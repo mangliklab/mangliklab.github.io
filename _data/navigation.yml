@@ -1,0 +1,13 @@
+main:
+  - title: home
+    url: /
+  - title: research
+    url: /research
+  - title: members
+    url: /members
+  - title: publications
+    url: /publications
+  - title: posts
+    url: /posts
+  - title: contact
+    url: /contact

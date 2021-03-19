@@ -1,0 +1,18 @@
+- name: Aashish Manglik
+  position: Assistant Professor, Department of Pharmaceutical Chemistry and Department of Anesthesia
+  ucsf_profile: "http://profiles.ucsf.edu/aashish.manglik"
+  email: aashish.manglik@ucsf.edu
+  twitter: AashishManglik
+  image: "/assets/img/aashish-manglik.jpg"
+  avatar: "/assets/img/aashish-manglik.jpg"
+  current: True
+  bio: Aashish was an undergraduate at Washington University in St. Louis, where he worked in the lab of Jeff McKinney on *Salmonella*-host interactions. He moved to California in 2008 to join the Stanford Medical Scientist Training Program. There, he worked with Brian Kobilka as a graduate student to elucidate different aspects of GPCR function, resulting in a number of important contributions to our current understanding of opioid and adrenergic receptors. After finishing his medical training in May 2016, Aashish began his independent research career as the first Stanford Distinguished Fellow at Stanford University School of Medicine within the Department of Molecular and Cellular Physiology. He subsequently began as an assistant professor at UCSF in fall of 2017.
+
+- name: Benjamin Barsi-Rhyne
+  position: Tetrad graduate student (joint with von Zastrow Lab)
+  ucsf_profile:
+  email: ben.barsirhyne@gmail.com
+  twitter: 
+  image: 
+  current: True
+  bio: Ben received his undergraduate degree from San Jose State University. While there he studied synapse formation and maintenance in the laboratory of Miri VanHoven. Currently, Ben is a graduate student in the von Zastrow and Manglik laboratories where he is developing new tools to study the role of β-arrestin in GPCR signaling and trafficking.
