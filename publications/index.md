@@ -1,120 +1,28 @@
 ---
 title: Publications
 layout: single
-group: publications
 ---
 
-<div class="container-fluid">
+{% assign articles = site.publications | reverse %}
 
-{% for publication in site.publications reversed %}
-        <hr>
-        <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
-        <div style="font-size: 120% !important; width: 100%">{{ publication.title | markdownify }}</div><div>{{ publication.citation | markdownify }}</div>
-        </div>
-        <div class="row" style="padding-top: 20px; margin-top: - 20px;">
-        	<div class="col-sm-6">
-        		<img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
-        	</div>
-        	<ul class="col-sm-6">
-        			<strong>Access the paper</strong>
-        			<!--PMID-->
-        			{% if publication.pmid %}
-        			<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
-        			{% endif %}
+{% for article in articles %}
+## {{article.title}}
 
-        			<!--PMCID - optional -->
-        			{% if publication.pmcid %}
-        			<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
-        			{% endif %}
+*{{article.journal}}* {{article.citation}}
 
-        			<!--Biorxiv - optional -->
-        			{% if publication.biorxiv %}
-        			<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
-        			{% endif %}
+{{article.authors}}
 
-        			<!--Arxiv - optional -->
-        			{% if publication.arxiv %}
-        			<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}"> {{publication.arxiv}}</a></li>
-        			{% endif %}
+{% if article.doi %}
+DOI: [{{article.doi}}](https://doi.org/{{article.doi}})
+{% endif %}
 
-        			<!--Chemrxiv - optional -->
-        			{% if publication.chemrxiv %}
-        			<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{publication.chemrxiv}}" alt = "chemrxiv preprint link: {{publication.chemrxiv}}"> {{publication.chemrxiv}}</a></li>
-        			{% endif %}
+{% if article.pdbs %}
+PDB: {% for pdb in article.pdbs %} [{{pdb}}](https://doi.org/10.2210/pdb{{pdb}}/pdb) {% endfor %}
+{% endif %}
 
-        			<!-- PDF -->
-        			<li><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
-
-        			<!-- Datasets - optional -->
-        			{% if publication.data %}
-        			<li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
-        				{% if publication.data.size > 1 %}
-        				<ul>
-        					{% for dataset in publication.data %}
-        					<li><a href="http://dx.doi.org/{{dataset}}" alt = "sbgrid data repository">doi:{{dataset}}</a></li>
-        					{% endfor %}
-        				</ul>
-        				{% else %}
-        				<a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
-        				{% endif %}
-        			</li>
-        			{% endif %}
-
-        			<!--PDBS - optional-->
-        			{% if publication.pdbs %}
-        			<li>Deposited Structure{% if publication.pdbs.size > 1 %}s{% endif %}:
-        				{% for code in publication.pdbs %}
-        				<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{code}}">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-        				{% endfor %}
-        			</li>
-        			{% endif %}
-
-        			<!--EMBDS - optional-->
-        			{% if publication.emdbs %}
-        			<li>Deposited Map{% if publication.emdbs.size > 1 %}s{% endif %}:
-        				{% for code in publication.emdbs %}
-        				<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{code}}">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-        				{% endfor %}
-        			</li>
-        			{% endif %}
-
-        			<!--pairs of maps and models - optional-->
-        			{% if publication.paired_maps_and_models %}
-        			<li>Deposited Structure{% if publication.paired_maps_and_models.size > 1 %}s{% endif %} and Map{% if publication.paired_maps_and_models.size > 1 %}s{% endif %}:
-        				{% for pair in publication.paired_maps_and_models %}
-        				<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{pair.pdb}}">{{pair.pdb}}</a>/<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{pair.emdb}}">{{pair.emdb}}</a>{% unless forloop.last %}, {% endunless %}
-        				{% endfor %}
-        			</li>
-        			{% endif %}
-
-                                <!--maps and models and datasets - optional-->
-                                {% if publication.paired_maps_and_models_and_data %}
-                                <li>Deposited Structure{% if publication.paired_maps_and_models_and_data.size > 1 %}s{% endif %},  Map{% if publication.paired_maps_and_models_and_data.size > 1 %}s{% endif %}, and Data set{% if publication.paired_maps_and_models_and_data.size > 1 %}s{% endif %}:
-                                        {% for pair in publication.paired_maps_and_models_and_data %}
-                                        <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{pair.pdb}}">{{pair.pdb}}</a>/<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{pair.emdb}}">{{pair.emdb}}</a>/<a href="https://empiar.org/{{pair.empiar}}/">{{pair.empiar}}</a>{% unless forloop.last %}, {% endunless %}
-                                        {% endfor %}
-                                </li>
-                                {% endif %}
-
-        			<!--zenodo records - optional-->
-        			{% if publication.zenodo %}
-        			<li>Zenodo Record{% if publication.zenodo.size > 1 %}s{% endif %}:
-        				{% for record in publication.zenodo %}
-        				<a href="https://doi.org/10.5281/zenodo.{{record.code}}">{{record.code}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
-        				{% endfor %}
-        			</li>
-        			{% endif %}
-
-
-        			<!--additional links - optional-->
-                                {% if publication.links %}
-                                <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
-                                        {% for link in publication.links %}
-                                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-                                        {% endfor %}
-                                {% endif %}
-        	</ul>
-        </div>
-        <br>
+{{article.content}}
 {% endfor %}
-</div>
+
+# All articles and reviews
+
+[Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/?term=aashish+manglik)
