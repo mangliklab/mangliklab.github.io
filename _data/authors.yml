@@ -1,0 +1,200 @@
+# This file is used both to populated the members page on the website
+# and to create author profiles for the sidebar of each post or
+# publication. The ordering of the below entries sets the ordering of
+# the members page.
+
+# Below is the default form for people in the lab. The first 6 fields
+# (everything before "email") are mandatory.
+
+#lastname-firstname:
+#  name:     First Last
+#  bio:      Graduate student, Biophysics #lab position, appears in sidebar of every post
+#  fullbio:  "" #appears as the main text on the members page; new paragraphs require two blank lines
+#  avatar:   /assets/images/last-first.jpg #square headshot, ~500px and <300 kB
+#  member:   true
+#  current:  true
+#  email:    first.last@ucsf.edu
+#  twitter:  ExampleHandle
+#  website:  https://example.com/
+
+manglik-aashish:
+  name:     Aashish Manglik
+  bio:      Associate Professor, Departments of Pharmaceutical Chemistry and Anesthesia
+  fullbio:  "Aashish was an undergraduate at Washington University in St. Louis, where he worked in the lab of Jeff McKinney on Salmonella-host interactions. He moved to California in 2008 to join the Stanford Medical Scientist Training Program. There, he worked with Brian Kobilka as a graduate student to elucidate different aspects of GPCR function, resulting in a number of important contributions to our current understanding of opioid and adrenergic receptors. After finishing his medical training in May 2016, Aashish began his independent research career as the first Stanford Distinguished Fellow at Stanford University School of Medicine within the Department of Molecular and Cellular Physiology. He subsequently began as an assistant professor at UCSF in fall of 2017."
+  avatar:   /assets/images/manglik-aashish.jpg
+  member:   true
+  current:  true
+  email:    aashish.manglik@ucsf.edu
+  twitter:  AashishManglik
+
+
+barsirhyne-benjamin:
+  name:     Benjamin Barsi-Rhyne
+  bio:      Graduate student, [Tetrad](https://tetrad.ucsf.edu/) (joint with [von Zastrow Lab](https://www.vzlab.org/))
+  fullbio:  "Ben received his undergraduate degree from San Jose State University. While there he studied synapse formation and maintenance in the laboratory of Miri VanHoven. Currently, Ben is a graduate student in the von Zastrow and Manglik laboratories where he is developing new tools to study the role of β-arrestin in GPCR signaling and trafficking."
+  avatar:   /assets/images/barsi-rhyne-benjamin.jpg
+  member:   true
+  current:  true
+  email:    ben.barsirhyne@gmail.com
+
+
+billesboelle-christian:
+  name:     Christian Billesbølle
+  bio:      Postdoctoral fellow
+  fullbio:  "Christian hails from Denmark, where he received a bachelor's degree in Pharmacy and a master's degree in Human Biology at the University of Copenhagen. He conducted his graduate studies in the lab of Ulrik Gether, where he studied the mechanism of the prototypical transmembrane transporter LeuT by new spectroscopic methods. Christian spent a year in the laboratory of Jonathan Javitch as a visiting Bikuben research scholar. After a short postdoc in the lab of Hans Bräuner-Osborne's lab, Christian decided to come to the states. In the Manglik lab, he is examining the structural and biophysical basis of iron transport with support from the [Alfred Benzon Foundation](https://www.benzon-foundation.dk/)."
+  avatar:   /assets/images/billesboelle-christian.jpg
+  member:   true
+  current:  true
+  email:    christianbache.billesboelle@ucsf.edu
+
+
+deshpande-ishan:
+  name:     Ishan Deshpande
+  bio:      Postdoctoral fellow
+  fullbio:  "Ishan received his bachelor’s and master’s degrees in Biotechnology at the University of Pune in India. He then moved to Switzerland for his graduate studies, where he worked on DNA damage signaling in the labs of Susan Gasser and Heinz Gut. With a growing interest in transmembrane signaling, Ishan decided to change fields and is currently working on Hedgehog signaling in the Manglik lab. Ishan is supported by a Swiss National Science Foundation Fellowship."
+  avatar:   /assets/images/deshpande-ishan.jpg
+  member:   true
+  current:  true
+  email:    ishan.deshpande@ucsf.edu
+
+
+faust-bryan:
+  name:     Bryan Faust
+  bio:      Graduate student, Biophysics (joint with Cheng Lab)
+  fullbio:  "Bryan grew up in southern California before his undergraduate studies took him to UC Davis for a BS in Biology, completed in 2013. Between UC Davis and UCSF, Bryan spent 5 years in the biotech industry at Genentech and Abbvie Stemcentrx. There, he worked in protein chemistry, biophysics, and antibody discovery roles at the Scientist level, tasked primarily with the biophysical characterization of discovery- and lead-level antibody-drug conjugates for the targeted treatment of cancer stem cells. At UCSF, he is a joint student between the Manglik and Cheng labs where he is using cryo-electron microscopy to uncover the structural basis of both canonical and patholgoic signaling states in GPCRs mediating diverse biology ranging from nociception to maintenance of central metabolism."
+  avatar:   /assets/images/faust-bryan.jpg
+  member:   true
+  current:  true
+  email:    bryan.faust@ucsf.edu
+
+
+harris-julian:
+  name:     Julian Harris
+  bio:      Graduate student, [CCB](https://ccb.ucsf.edu/)
+  fullbio:  "Julian comes to UCSF by way of Lewis & Clark College, where he received his BA in Chemistry. While at Lewis & Clark College, Julian worked in the lab of Casey Jones to design and engineer polyphenol releasing coronary arterial stents. Julian is a graduate student in the Chemistry & Chemical Biology program at UCSF. In the Manglik lab, Julian is studying GPCR-coupled activation of beta-arrestins with support from the ​[National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/)."
+  avatar:   /assets/images/harris-julian.jpg
+  member:   true
+  current:  true
+  email:    julian.harris@ucsf.edu
+
+
+harrison-simone:
+  name:     Simone Harrison
+  bio:      Graduate student, Biophysics
+  fullbio:  "Simone received her bachelor’s degree in Molecular Biology and Biochemistry from Wesleyan University in 2018. At Wesleyan, she worked in the Olson lab to study the biophysical properties of novel pathogenic proteins from the genus Vibrio. After college, Simone worked for 2 years at Vanderbilt University in the Chazin lab as a Research Assistant, studying the structural basis of nutrient sequestration and inflammation mediated by S100 proteins, and aiding with protein production. In the Manglik lab, she is studying the molecular details of the interaction between GPCRs and GRKs, as well as the mechanism of GPCR mediated regulation of the hedgehog signaling pathway."
+  avatar:   /assets/images/harrison-simone.jpg
+  member:   true
+  current:  true
+  email:    simone.harrison@ucsf.edu
+
+
+hogan-daniel:
+  name:     Daniel Hogan
+  bio:      Bioinformatics programmer
+  fullbio:  "Daniel graduated from Stanford, where he worked on single-molecule biophysics with Dr. Steven Block. In the Manglik lab, Daniel works to improve and expand the lab’s computational resources. He’s passionate about open science, open data, and open-source software. Outside of lab, Daniel can usually be found running or playing board games."
+  avatar:   /assets/images/hogan-daniel.jpg
+  member:   true
+  current:  true
+  email:    daniel.hogan@ucsf.edu
+  website:  https://dhogan.io/
+
+
+hoppe-nick:
+  name:     Nick Hoppe
+  bio:      Graduate student, Biophysics
+  fullbio:  "Nick grew up in Wisconsin, and received his BS in biomedical engineering and applied math from UW-Madison. Before joining UCSF’s biophysics PhD program, Nick worked as a research technician in Srivatsan Raman’s lab designing biosensors. Nick is now studying the molecular mechanisms of GPCRs that control a range of physiological processes spanning morphogenesis, breathing, and nociception."
+  avatar:   /assets/images/hoppe-nick.jpg
+  member:   true
+  current:  true
+  email:    nick.hoppe@ucsf.edu
+
+
+orourk-melanie:
+  name:     Melanie O'Rourke
+  bio:      Lab manager
+  fullbio:  "Melanie received her BS in Industrial Biotechnology at Santa Fe College in Gainesville, FL. She spent 4 years in industry and helped grow two biotech startups from proof-of-concept to market. During this time, she consulted and specialized in quality control/assurance, maintaining GLP/GMP standards across multiple labs, and SOP validation. In 2017, she moved to California to research axon degeneration during embryonic development in Marc Tessier-Lavigne’s Lab at Stanford University. At UCSF, she is the Lab Manager to the Manglik Lab and utilizes her experiences in industry and academia to streamline lab systems."
+  avatar:   /assets/images/orourke-melanie.jpg
+  member:   true
+  current:  true
+  email:    morourke.ucsf@gmail.com
+
+
+webb-chase:
+  name:     Chase Webb
+  bio:      Graduate student, [PSPG](https://pspg.ucsf.edu/) (joint with [Shoichet Lab](https://www.bkslab.org/))
+  fullbio:  "Chase is an Arizona transplant who received his bachelor's degree from Saint Mary's College of California in Chemistry in 2016. While at SMC, Chase worked with Dr. Ken Brown investigating the stereochemistry of magnesium mediated oxidations. After a 1 year post-baccalaureate fellowship as part of the NIH PREP program at Case Western Reserve University, Chase matriculated at UCSF in the Pharmaceutical Sciences and Pharmacogenomics Graduate Training Program. As a joint student in the Manglik and Shoichet Laboratories, Chase is interested in using computational and biophysical tools to study the pharmacological basis of GPCR mediated analgesia with support from the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/)."
+  avatar:   /assets/images/webb-chase.jpg
+  member:   true
+  current:  true
+  email:    chase.webb@ucsf.edu
+
+
+
+## Former members
+
+obgonna-dora:
+  name:     Dora Obgonna
+  bio:      Summer student, SRTP
+  member:   true
+  current:  false
+  start:    2021
+  next:     Undergraduate student, UCSD
+
+olivaresrojas-ashley:
+  name:     Ashley Olivares Rojas
+  bio:      Summer student, [BAYS](https://pharm.ucsf.edu/bays)
+  member:   true
+  current:  false
+  start:    2021
+  next:     High school student, KIPP
+
+liang-jiahao:
+  name:     Jiahao Liang
+  bio:      Research associate and lab manager
+  member:   true
+  current:  false
+  start:    2017
+  end:      2020
+  next:     Graduate student at Stanford University
+
+tong-zhen:
+  name:     Zhen Tong
+  bio:      Undergraduate student from Nankai University
+  member:   true
+  current:  false
+  start:    2019
+  next:     Graduate student at the University of Chicago
+
+sukalskaia-anastasiia:
+  name:     Anastasiia Sukalskaia
+  bio:      Master's student from the University of Copenhagen
+  member:   true
+  current:  false
+  start:    2018
+  end:      2019
+  next:     Graduate student at the University of Zurich
+
+schneider-simon:
+  name:     Simon Schneider
+  bio:      Master's student from Goethe University
+  member:   true
+  current:  false
+  start:    2019
+  next:     Master's student at Goethe University
+
+bachina-preetham:
+  name:     Preetham Bachina
+  bio:      Undergraduate summer student from Rice University
+  member:   true
+  current:  false
+  start:    2018
+  next:     Undergraduate at Rice University
+
+muftuoglu-yagmur:
+  name:     Yagmur Muftuoglu
+  bio:      Postdoctoral scholar
+  member:   true
+  current:  false
+  start:    2016
+  end:      2017
+  next:     Medical student at Stanford University
