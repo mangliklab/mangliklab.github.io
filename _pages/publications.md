@@ -18,7 +18,7 @@ Published in {%if article.doi%}[*{{article.journal}}* {{article.citation}}](http
 {% assign length = article.pdbs | size %}
 PDB{%if length > 1%}s{%endif%}: {% for pdb in article.pdbs %} [{{pdb}}](https://doi.org/10.2210/pdb{{pdb}}/pdb){% endfor %}
 {% endif %}
-
+<hr>
 {% endif %}
 {% endfor %}
 
