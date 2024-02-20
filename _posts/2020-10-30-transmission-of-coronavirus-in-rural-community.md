@@ -3,7 +3,7 @@ title: Universal Polymerase Chain Reaction and Antibody Testing Demonstrate Litt
 author: manglik-aashish
 publication: true
 journal: Open Forum Infectious Diseases
-citation: 8(1): ofaa531
+citation: 8(1):ofaa531
 doi: 10.1093/ofid/ofaa531
 authors:
   - Ayesha Appa
