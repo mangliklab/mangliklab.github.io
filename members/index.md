@@ -11,7 +11,7 @@ layout: single
 ## {{ member.name }}
 
 {% if member.avatar %}
-![Photograph of {{member.name}}]({{member.avatar}}){:style="float: left;width: 30%;margin-right: 10px;"}
+![Photograph of {{member.name}}]({{member.avatar}}){:style="float: left; object-fit: contain; width: 30%; max-height: 12em; margin-left: 1em; margin-right: 1em;"}
 {% endif %}
 
 {% if member.bio %}
