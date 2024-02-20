@@ -26,8 +26,6 @@ pdbs:
   - 7UTZ
   - 7T9N 
   - 7T9M
-categories:
-  - Publications
 tags:
   - autoantibody mimicry
   - thyrotropin receptor

@@ -21,8 +21,6 @@ pdbs:
   - 7T9I
   - 7T9N
   - 7T9M
-categories:
-  - Publications
 tags:
   - activation
   - thyrotropin receptor

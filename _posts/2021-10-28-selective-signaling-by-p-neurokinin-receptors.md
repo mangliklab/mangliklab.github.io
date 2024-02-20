@@ -21,8 +21,6 @@ pdbs:
   - 7RMG
   - 7RMH
   - 7RMI
-categories:
-  - Publications
 tags:
   - p-neurokinin
   - signaling
