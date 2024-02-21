@@ -28,16 +28,6 @@ manglik-aashish:
   twitter:  AashishManglik
 
 
-barsirhyne-benjamin:
-  name:     Benjamin Barsi-Rhyne
-  bio:      Graduate student, [Tetrad](https://tetrad.ucsf.edu/) (joint with [von Zastrow Lab](https://www.vzlab.org/))
-  fullbio:  "Ben received his undergraduate degree from San Jose State University. While there he studied synapse formation and maintenance in the laboratory of Miri VanHoven. Currently, Ben is a graduate student in the von Zastrow and Manglik laboratories where he is developing new tools to study the role of β-arrestin in GPCR signaling and trafficking."
-  avatar:   /assets/images/barsi-rhyne-benjamin.jpg
-  member:   true
-  current:  true
-  email:    ben.barsirhyne@gmail.com
-
-
 billesboelle-christian:
   name:     Christian Billesbølle
   bio:      Postdoctoral fellow
@@ -47,9 +37,6 @@ billesboelle-christian:
   current:  true
   email:    christianbache.billesboelle@ucsf.edu
 
-
-
-
 harrison-simone:
   name:     Simone Harrison
   bio:      Graduate student, Biophysics
@@ -58,7 +45,6 @@ harrison-simone:
   member:   true
   current:  true
   email:    simone.harrison@ucsf.edu
-
 
 hogan-daniel:
   name:     Daniel Hogan
@@ -72,8 +58,8 @@ hogan-daniel:
 
 howard-matthew: 
   name:     Matthew Howard 
-  bio:      Graduate student,[Tetrad] (https://tetrad.ucsf.edu/) (joint with [Coyote-Maestas Lab] (https://www.wcoyotelab.com)) 
-  fullbio:  "Matt comes to the Manglik Lab by way of Washington University in St. Louis where he studied chemistry and biology. At WashU, he worked in the Jackrel Lab to engineer protein disagreggases and investigate microbial amyloid proteins. In the Manglik Lab, Matt develops high-throughput screening assays to enable deep mutational scanning of many GPCR phenotypes. These approaches are applied across diverse receptor systems to study the fundamental principles of ligand recognition, signal transduction, and cell biology"
+  bio:      Graduate student,[Tetrad](https://tetrad.ucsf.edu/) (joint with [Coyote-Maestas Lab](http://wcoyotelab.com))
+  fullbio:  "Matt comes to the Manglik Lab by way of Washington University in St. Louis where he studied chemistry and biology. At WashU, he worked in the Jackrel Lab to engineer protein disagreggases and investigate microbial amyloid proteins. In the Manglik Lab, Matt develops high-throughput screening assays to enable deep mutational scanning of many GPCR phenotypes. These approaches are applied across diverse receptor systems to study the fundamental principles of ligand recognition and signal transduction"
   avatar:    /assets/images/gpcr.png 
   member:   true
   current:  true 
@@ -81,9 +67,6 @@ howard-matthew:
   website:   https://matthewkhoward.com 
   twitter:   matthewkhoward 
   gscholar:  https://scholar.google.com/citations?user=bOu5znYAAAAJ&hl=en
-
-
-
 
 ## Former members
 
@@ -212,4 +195,14 @@ webb-chase:
   current:  false
   email:    chase.webb@ucsf.edu
 
+
+
+barsirhyne-benjamin:
+  name:     Benjamin Barsi-Rhyne
+  bio:      Graduate student, [Tetrad](https://tetrad.ucsf.edu/) (joint with [von Zastrow Lab](https://www.vzlab.org/))
+  fullbio:  "Ben received his undergraduate degree from San Jose State University. While there he studied synapse formation and maintenance in the laboratory of Miri VanHoven. Currently, Ben is a graduate student in the von Zastrow and Manglik laboratories where he is developing new tools to study the role of β-arrestin in GPCR signaling and trafficking."
+  avatar:   /assets/images/barsi-rhyne-benjamin.jpg
+  member:   true
+  current:  false
+  email:    ben.barsirhyne@gmail.com
 
