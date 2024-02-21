@@ -68,6 +68,17 @@ howard-matthew:
   twitter:   matthewkhoward 
   gscholar:  https://scholar.google.com/citations?user=bOu5znYAAAAJ&hl=en
 
+stevens-jakki:
+  name:     Jakki Stevens
+  bio:      Lab Manager Extraordinaire
+  fullbio:  "Jakki is the lab manager for both the Manglik and Shoichet Labs with expertise in protein biochemistry. She received my BS in Chemistry at the University of Kansas where she honed her skills in the outer-membrane focused lab of Joanna Slusky before venturing to the GPCR world. With a passion for scientific research and a meticulous attention to detail, Jakki play a pivotal role in ensuring the smooth operation of our cutting-edge research. Jakki facilitates the day-to-day activities, coordinate equipment, and assist lab members in achieving their scientific goals."
+  avatar:   /assets/images/stevens-jakki.jpg
+  member:   true
+  current:  true
+  start:    2022
+  email:    jacqueline.stevens@ucsf.edu
+
+
 ## Former members
 
 obgonna-dora:
@@ -154,6 +165,7 @@ faust-bryan:
   avatar:   /assets/images/faust-bryan.jpg
   member:   true
   current:  false
+  end:      2022
   email:    bryan.faust@ucsf.edu
 
 
@@ -164,6 +176,7 @@ harris-julian:
   avatar:   /assets/images/harris-julian.jpg
   member:   true
   current:  false
+  end:      2022
   email:    julian.harris@ucsf.edu
 
 hoppe-nick:
@@ -173,6 +186,7 @@ hoppe-nick:
   avatar:   /assets/images/hoppe-nick.jpg
   member:   true
   current:  false
+  end:      2023
   email:    nick.hoppe@ucsf.edu
 
 
@@ -183,6 +197,7 @@ orourk-melanie:
   avatar:   /assets/images/orourke-melanie.jpg
   member:   true
   current:  false
+  end:      2022
   email:    morourke.ucsf@gmail.com
 
 
@@ -193,6 +208,7 @@ webb-chase:
   avatar:   /assets/images/webb-chase.jpg
   member:   true
   current:  false
+  end:      2023
   email:    chase.webb@ucsf.edu
 
 
@@ -204,5 +220,6 @@ barsirhyne-benjamin:
   avatar:   /assets/images/barsi-rhyne-benjamin.jpg
   member:   true
   current:  false
+  end:      2022
   email:    ben.barsirhyne@gmail.com
 
