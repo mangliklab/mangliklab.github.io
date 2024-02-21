@@ -27,6 +27,15 @@ manglik-aashish:
   email:    aashish.manglik@ucsf.edu
   twitter:  AashishManglik
 
+stevens-jakki:
+  name:     Jakki Stevens
+  bio:      Lab Manager Extraordinaire
+  fullbio:  "Jakki is the lab manager for both the Manglik and [Shoichet](https://www.bkslab.org/) Labs with expertise in protein biochemistry. She received my BS in Chemistry at the University of Kansas where she honed her skills in the outer-membrane focused lab of Joanna Slusky before venturing to the GPCR world. With a passion for scientific research and a meticulous attention to detail, Jakki play a pivotal role in ensuring the smooth operation of our cutting-edge research. Jakki facilitates the day-to-day activities, coordinate equipment, and assist lab members in achieving their scientific goals."
+  avatar:   /assets/images/stevens-jakki.jpg
+  member:   true
+  current:  true
+  start:    2022
+  email:    jacqueline.stevens@ucsf.edu
 
 billesboelle-christian:
   name:     Christian Billesbølle
@@ -68,15 +77,6 @@ howard-matthew:
   twitter:   matthewkhoward 
   gscholar:  https://scholar.google.com/citations?user=bOu5znYAAAAJ&hl=en
 
-stevens-jakki:
-  name:     Jakki Stevens
-  bio:      Lab Manager Extraordinaire
-  fullbio:  "Jakki is the lab manager for both the Manglik and [Shoichet](https://www.bkslab.org/) Labs with expertise in protein biochemistry. She received my BS in Chemistry at the University of Kansas where she honed her skills in the outer-membrane focused lab of Joanna Slusky before venturing to the GPCR world. With a passion for scientific research and a meticulous attention to detail, Jakki play a pivotal role in ensuring the smooth operation of our cutting-edge research. Jakki facilitates the day-to-day activities, coordinate equipment, and assist lab members in achieving their scientific goals."
-  avatar:   /assets/images/stevens-jakki.jpg
-  member:   true
-  current:  true
-  start:    2022
-  email:    jacqueline.stevens@ucsf.edu
 
 
 ## Former members
