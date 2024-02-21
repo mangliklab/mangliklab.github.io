@@ -22,3 +22,5 @@ Getting started
 
 
 Please test your changes locally before pushing.
+
+See lab manual for instructions on how to add yourself to the website!
