@@ -31,6 +31,10 @@ Email: [{{ member.email }}](mailto:{{ member.email }})
 Twitter: [@{{ member.twitter }}](https://twitter.com/{{ member.twitter }})
 {% endif %}
 
+{% if member.gscholar %}
+Google Scholar Porfile: [{{ member.gscholar }}] ({{member.gscholar}})
+{% endif %}
+
 {{ member.fullbio }}
 
 {% endif %}
