@@ -47,19 +47,17 @@ harrison-simone:
   current:  true
   email:    simone.harrison@ucsf.edu
 
-howard-matthew:
-  name:     Matthew Howard
-  bio:      Graduate student, [Tetrad](https://tetrad.ucsf.edu/) (joint with [Coyote-Maestas Lab](https://www.wcoyotelab.com))
-  fullbio:  "matt blurb"
-  avatar:   /assets/images/gpcr.png
-  member:   true
-  current:  true
-  start: 2022
-  email:    matthew.howard@ucsf.edu
-  twitter: @matthewkarlhoward
-  website: http://matthewkhoward.com
-
-
+# howard-matthew:
+#   name:     Matthew Howard
+#   bio:      Graduate student, [Tetrad](https://tetrad.ucsf.edu/) (joint with [Coyote-Maestas Lab](https://www.wcoyotelab.com))
+#   fullbio:  "matt blurb"
+#   avatar:   /assets/images/gpcr.png
+#   member:   true
+#   current:  true
+#   start: 2022
+#   email:    matthew.howard@ucsf.edu
+#   twitter: @matthewkarlhoward
+#   website: http://matthewkhoward.com
 
 hogan-daniel:
   name:     Daniel Hogan
