@@ -27,8 +27,12 @@ Email: [{{ member.email }}](mailto:{{ member.email }})
 [Personal website]({{ member.website }})
 {% endif %}
 
+{% if member.gscholar %}
+[Google Scholar]({{ member.website }})
+{% endif %}
+
 {% if member.twitter %}
-[@{{ member.twitter }}](https://twitter.com/{{ member.twitter }})
+Twitter: [@{{ member.twitter }}](https://twitter.com/{{ member.twitter }})
 {% endif %}
 
 {{ member.fullbio }}
