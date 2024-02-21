@@ -73,14 +73,14 @@ hogan-daniel:
 howard-matthew: 
   name:     Matthew Howard 
   bio:      Graduate student,[Tetrad] (https://tetrad.ucsf.edu/) (joint with [Coyote-Maestas Lab] (https://www.wcoyotelab.com)) 
-  fullbio:  "Matt comes to the Manglik Lab by way of Washington University in St. Louis where he studied chemistry and biology. At WashU, he worked in the Jackrel Lab to engineer protein disagreggases and investigate microbial amyloid proteins. In the Manglik Lab, Matt develops high-throughput screening assays to enable deep mutational scanning of many GPCR phenotypes. These approaches are applied across diverse receptor systems to study the fundamental principles of ligand recognition, signal transduction, and cell biology" a
-  vatar: /assets/images/gpcr.png 
+  fullbio:  "Matt comes to the Manglik Lab by way of Washington University in St. Louis where he studied chemistry and biology. At WashU, he worked in the Jackrel Lab to engineer protein disagreggases and investigate microbial amyloid proteins. In the Manglik Lab, Matt develops high-throughput screening assays to enable deep mutational scanning of many GPCR phenotypes. These approaches are applied across diverse receptor systems to study the fundamental principles of ligand recognition, signal transduction, and cell biology"
+  avatar:    /assets/images/gpcr.png 
   member:   true
   current:  true 
-  email: matthew.howard@ucsf.edu 
-  website: https://matthewkhoward.com 
-  twitter: matthewkhoward 
-  gscholar: https://scholar.google.com/citations?user=bOu5znYAAAAJ&hl=en
+  email:    matthew.howard@ucsf.edu 
+  website:   https://matthewkhoward.com 
+  twitter:   matthewkhoward 
+  gscholar:  https://scholar.google.com/citations?user=bOu5znYAAAAJ&hl=en
 
 
 
