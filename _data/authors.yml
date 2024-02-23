@@ -138,6 +138,7 @@ orourk-melanie:
   avatar:   /assets/images/orourke-melanie.jpg
   member:   true
   current:  false
+  start:     
   end:      2022
   email:    morourke.ucsf@gmail.com
 
@@ -148,6 +149,7 @@ deshpande-ishan:
   avatar:   /assets/images/deshpande-ishan.jpg
   member:   true
   current:  false
+  start:    
   end:      2022
   email:    ishan.deshpande@ucsf.edu
 
