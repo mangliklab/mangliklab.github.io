@@ -77,7 +77,15 @@ howard-matthew:
   twitter:   matthewkhoward 
   gscholar:  https://scholar.google.com/citations?user=bOu5znYAAAAJ&hl=en
 
-
+srinivasan-karthik:
+  name:     Karthik Srinivasan
+  bio:      Postdoctoral Scholar
+  fullbio:  "Karthik earned his Bachelor of Engineering in Mechanical Engineering and his Master of Science in Biological Sciences from BITS Pilani Goa Campus in India. During his Master’s thesis, he conducted research as a visiting student in the lab of Andre Hoelz at Caltech, focusing on elucidating the structure of a multiprotein component of the nuclear pore complex. Pursuing his doctoral studies, Karthik transitioned to the lab of Nicholas Noinaj at Purdue University, where he devised an innovative approach to isolate the chloroplast import machinery from plant biomass. Deepening his engagement with membrane protein structural biology, Karthik then joined the Manglik lab where he presently investigates the thyroid stimulating hormone receptor and its implications in autoimmune thyroid diseases."
+  avatar:   
+  member:   true
+  current:  true
+  start:    2023
+  email:    karthik.srinivasan@ucsf.edu
 
 ## Former members
 
