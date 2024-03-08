@@ -1,0 +1,328 @@
+---
+title: Comparative host-coronavirus protein interaction networks reveal pan-viral disease mechanisms
+author: manglik-aashish
+publication: true
+journal: Science
+doi: 10.1126/science.abe9403
+authors:
+  - David E. Gordon
+  - Joseph Hiatt
+  - Mehdi Bouhaddou
+  - Veronica V. Rezelj
+  - Svenja Ulferts
+  - Hannes Braberg
+  - Alexander S. Jureka
+  - Kirsten Obernier
+  - Jeffrey Z. Guo
+  - Jyoti Batra
+  - Robyn M. Kaake
+  - Andrew R. Weckstein
+  - Tristan W. Owens
+  - Meghna Gupta
+  - Sergei Pourmal
+  - Erron W. Titus
+  - Merve Cakir
+  - Margaret Soucheray
+  - Michael McGregor
+  - Zeynep Cakir
+  - Gwendolyn Jang
+  - Matthew J. O’Meara
+  - Tia A. Tummino
+  - Ziyang Zhang
+  - Helene Foussard
+  - Ajda Rojc
+  - Yuan Zhou
+  - Dmitry Kuchenov
+  - Ruth Hüttenhain
+  - Jiewei Xu
+  - Manon Eckhardt
+  - Danielle L. Swaney
+  - Jacqueline M. Fabius
+  - Manisha Ummadi
+  - Beril Tutuncuoglu
+  - Ujjwal Rathore
+  - Maya Modak
+  - Paige Haas
+  - Kelsey M. Haas
+  - Zun Zar Chi Naing
+  - Ernst H. Pulido
+  - Ying Shi
+  - Inigo Barrio-Hernandez
+  - Danish Memon
+  - Eirini Petsalaki
+  - Alistair Dunham
+  - Miguel Correa Marrero
+  - David Burke
+  - Cassandra Koh
+  - Thomas Vallet
+  - Jesus A. Silvas
+  - Caleigh M. Azumaya
+  - Christian Billesbølle
+  - Axel F. Brilot
+  - Melody G. Campbell
+  - Amy Diallo
+  - Miles Sasha Dickinson
+  - Devan Diwanji
+  - Nadia Herrera
+  - Nick Hoppe
+  - Huong T. Kratochvil
+  - Yanxin Liu
+  - Gregory E. Merz
+  - Michelle Moritz
+  - Henry C. Nguyen
+  - Carlos Nowotny
+  - Cristina Puchades
+  - Alexandrea N. Rizo
+  - Ursula Schulze-Gahmen
+  - Amber M. Smith
+  - Ming Sun
+  - Iris D. Young
+  - Jianhua Zhao
+  - Daniel Asarnow
+  - Justin Biel
+  - Alisa Bowen
+  - Julian R. Braxton
+  - Jen Chen
+  - Cynthia M. Chio
+  - Un Seng Chio
+  - Ishan Deshpande
+  - Loan Doan
+  - Bryan Faust
+  - Sebastian Flores
+  - Mingliang Jin
+  - Kate Kim
+  - Victor L. Lam
+  - Fei Li
+  - Junrui Li
+  - Yen-Li Li
+  - Yang Li
+  - Xi Liu
+  - Megan Lo
+  - Kyle E. Lopez
+  - Arthur A. Melo
+  - Frank R. Moss
+  - Phuong Nguyen
+  - Joana Paulino
+  - Komal Ishwar Pawar
+  - Jessica K. Peters
+  - Thomas H. Pospiech
+  - Maliheh Safari
+  - Smriti Sangwan
+  - Kaitlin Schaefer
+  - Paul V. Thomas
+  - Aye C. Thwin
+  - Raphael Trenker
+  - Eric Tse
+  - Tsz Kin Martin Tsui
+  - Feng Wang
+  - Natalie Whitis
+  - Zanlin Yu
+  - Kaihua Zhang
+  - Yang Zhang
+  - Fengbo Zhou
+  - Daniel Saltzberg
+  - QCRG Structural Biology Consortium
+  - Anthony J. Hodder
+  - Amber S. Shun-Shion
+  - Daniel M. Williams
+  - Kris M. White
+  - Romel Rosales
+  - Thomas Kehrer
+  - Lisa Miorin
+  - Elena Moreno
+  - Arvind H. Patel
+  - Suzannah Rihn
+  - Mir M. Khalid
+  - Albert Vallejo-Gracia
+  - Parinaz Fozouni
+  - Camille R. Simoneau
+  - Theodore L. Roth
+  - David Wu
+  - Mohd Anisul Karim
+  - Maya Ghoussaini
+  - Ian Dunham
+  - Francesco Berardi
+  - Sebastian Weigang
+  - Maxime Chazal
+  - Jisoo Park
+  - James Logue
+  - Marisa McGrath
+  - Stuart Weston
+  - Robert Haupt
+  - C. James Hastie
+  - Matthew Elliott
+  - Fiona Brown
+  - Kerry A. Burness
+  - Elaine Reid
+  - Mark Dorward
+  - Clare Johnson
+  - Stuart G. Wilkinson
+  - Anna Geyer
+  - Daniel M. Giesel
+  - Carla Baillie
+  - Samantha Raggett
+  - Hannah Leech
+  - Rachel Toth
+  - Nicola Goodman
+  - Kathleen C. Keough
+  - Abigail L. Lind
+  - Zoonomia Consortium
+  - Reyna J. Klesh
+  - Kafi R. Hemphill
+  - Jared Carlson-Stevermer
+  - Jennifer Oki
+  - Kevin Holden
+  - Travis Maures
+  - Katherine S. Pollard
+  - Andrej Sali
+  - David A. Agard
+  - Yifan Cheng
+  - James S. Fraser
+  - Adam Frost
+  - Natalia Jura
+  - Tanja Kortemme
+  - Aashish Manglik
+  - Daniel R. Southworth
+  - Robert M. Stroud
+  - Dario R. Alessi
+  - Paul Davies
+  - Matthew B. Frieman
+  - Trey Ideker
+  - Carmen Abate
+  - Nolwenn Jouvenet
+  - Georg Kochs
+  - Brian Shoichet
+  - Melanie Ott
+  - Massimo Palmarini
+  - Kevan M. Shokat
+  - Adolfo García-Sastre
+  - Jeremy A. Rassen
+  - Robert Grosse
+  - Oren S. Rosenberg
+  - Kliment A. Verba
+  - Christopher F. Basler
+  - Marco Vignuzzi
+  - Andrew A. Peden
+  - Pedro Beltrao
+  - Nevan J. Krogan
+  - Tristan W. Owens
+  - Meghna Gupta
+  - Sergei Pourmal
+  - Erron W. Titus
+  - Caleigh M. Azumaya
+  - Christian Billesbølle
+  - Axel F. Brilot
+  - Melody G. Campbell
+  - Amy Diallo
+  - Miles Sasha Dickinson
+  - Devan Diwanji
+  - Nadia Herrera
+  - Nick Hoppe
+  - Huong T. Kratochvil
+  - Yanxin Liu
+  - Gregory E. Merz
+  - Michelle Moritz
+  - Henry C. Nguyen
+  - Carlos Nowotny
+  - Cristina Puchades
+  - Alexandrea N. Rizo
+  - Ursula Schulze-Gahmen
+  - Amber M. Smith
+  - Ming Sun
+  - Iris D. Young
+  - Jianhua Zhao
+  - Daniel Asarnow
+  - Justin Biel
+  - Alisa Bowen
+  - Julian R. Braxton
+  - Jen Chen
+  - Cynthia M. Chio
+  - Un Seng Chio
+  - Ishan Deshpande
+  - Loan Doan
+  - Bryan Faust
+  - Sebastian Flores
+  - Mingliang Jin
+  - Kate Kim
+  - Victor L. Lam
+  - Fei Li
+  - Junrui Li
+  - Yen-Li Li
+  - Yang Li
+  - Xi Liu
+  - Megan Lo
+  - Kyle E. Lopez
+  - Arthur A. Melo
+  - Frank R. Moss
+  - Phuong Nguyen
+  - Joana Paulino
+  - Komal Ishwar Pawar
+  - Jessica K. Peters
+  - Thomas H. Pospiech
+  - Maliheh Safari
+  - Smriti Sangwan
+  - Kaitlin Schaefer
+  - Paul V. Thomas
+  - Aye C. Thwin
+  - Raphael Trenker
+  - Eric Tse
+  - Tsz Kin Martin Tsui
+  - Feng Wang
+  - Natalie Whitis
+  - Zanlin Yu
+  - Kaihua Zhang
+  - Yang Zhang
+  - Fengbo Zhou
+  - Donovan Trinidad
+  - David A. Agard
+  - Yifan Cheng
+  - James S. Fraser
+  - Adam Frost
+  - Natalia Jura
+  - Tanja Kortemme
+  - Aashish Manglik
+  - Daniel R. Southworth
+  - Robert M. Stroud
+  - Oren S. Rosenberg
+  - Kliment A. Verba
+  - Joana Damas
+  - Graham M. Hughes
+  - Kathleen C. Keough
+  - Corrie A. Painter
+  - Nicole S. Persky
+  - Marco Corbo
+  - Bodgan Kirilenko
+  - Michael Hiller
+  - Klaus-Peter Koepfli
+  - Irene Kaplow
+  - Morgan Wirthlin
+  - Andreas R. Pfenning
+  - Huabin Zhao
+  - Diane P. Genereux
+  - Ross Swofford
+  - Abigail Lind
+  - Katherine S. Pollard
+  - Oliver A. Ryderq
+  - Martin T. Nweeia
+  - Jennifer Meadows
+  - Michael Dong
+  - Ola Wallerman
+  - Vikki Marinescu
+  - Kerstin Lindblad-Toh
+  - David A. Ray
+  - Sarahjane Power
+  - Emma C. Teeling
+  - Gaurav Chauhan
+  - Shirley Xue Li
+  - Elinor K. Karlsson
+  - Harris A. Lewin
+abstract: "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is closely related to the deadly coronaviruses SARS-CoV-1 and Middle East respiratory syndrome coronavirus (MERS-CoV). Considerable efforts are focused on developing treatments, and therapies that work across coronaviruses would be particularly valuable. Shedding light on the host factors hijacked by the viruses, Gordon et al. mapped the interactions between viral and human proteins for SARS-CoV-2, SARS-CoV-1, and MERS-CoV; analyzed the localization of viral proteins in human cells; and used genetic screening to identify host factors that either enhance or inhibit viral infection. For a subset of the interactions essential for the virus life cycle, the authors determined the cryo–electron microscopy structures and mined patient data to understand how targeting host factors may be relevant to clinical outcomes."
+pdbs:
+  - FIXME
+tags:
+  - FIXME
+---
+
+We recently published ["{{page.title}}"](https://doi.org/{{page.doi}}) in *{{page.journal}}*.
+
+{{page.abstract}}
