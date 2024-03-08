@@ -87,15 +87,15 @@ srinivasan-karthik:
   start:    2023
   email:    karthik.srinivasan@ucsf.edu
 
-  Wan-Yue:
+wan-yue:
   name:     Yue Wan
   bio:      Postdoctoral Scholar
   fullbio:  "Yue is from Northeast of China and earned her PhD degree from SIAIS at ShanghaiTech University in 2021. During her doctral studies, she conducted research in Guang Yang's lab at SIAIS and Richard Lerner's lab at Scripps, focusing on the development of membrane protein antibody screening platforms and the discovery of therapeutic antibodies targeting chemokine receptor. Following her PhD, she gained industry experience for eight months before joining Manglik's lab. Currently, her interests lie in generating high-quality nanobody libraries and exploring high-throughput screening methods targeting GPCRs."
-  avatar:   /assets/images/Wan-Yue.jpg
+  avatar:   /assets/images/wan-yue.jpg
   member:   true
   current:  true
   start:    2022
-  email:    jacqueline.stevens@ucsf.edu
+  email:    yue.wan@ucsf.edu
 
 ## Former members
 
