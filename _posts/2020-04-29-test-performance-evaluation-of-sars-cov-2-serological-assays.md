@@ -2,7 +2,7 @@
 title: Test performance evaluation of SARS-CoV-2 serological assays
 author: manglik-aashish
 publication: true
-journal: []
+journal: medRxiv
 doi: 10.1101/2020.04.25.20074856
 authors:
   - Jeffrey D. Whitman
