@@ -72,6 +72,7 @@ howard-matthew:
   avatar:    /assets/images/gpcr.png 
   member:   true
   current:  true 
+  start:    2022
   email:    matthew.howard@ucsf.edu 
   website:   https://matthewkhoward.com 
   twitter:   matthewkhoward 
