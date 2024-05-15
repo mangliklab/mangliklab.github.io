@@ -108,6 +108,18 @@ wang-huixia:
   start:    2023
   email:    Huixia.Wang@ucsf.edu
 
+hiroyuki-okamoto:
+  name:     Hiroyuki Okamoto
+  bio:      Postdoctoral Scholar
+  fullbio:  "Hiro came from Japan, where he earned his Ph.D. in Biological Science at the University of Tokyo. He conducted his graduate studies in the lab of Osamu Nureki, where he elucidated the structural basis of melatonin receptors using cryogenic electron microscopy (cryo-EM). After he received his Ph.D., Hiro decided to join the Manglik lab, where he is trying to find ligands of some classA GPCRs using biochemical and biophysical approaches with support from the Human Frontier Science Program (HFSP) Long Term Fellowship (LTF) and the Japan Society for the Promotion of Science (JSPS)."
+  avatar:   /assets/images/hiroyuki-okamoto.jpg
+  member:   true
+  current:  true
+  start:    2024
+  email:    Hiroyuki.Okamoto@ucsf.edu
+  website:   https://orcid.org/0000-0002-4655-2498
+  twitter:   hhokamoto_en
+  
 ## Former members
 
 webb-chase:
