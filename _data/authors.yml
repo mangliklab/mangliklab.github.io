@@ -108,6 +108,7 @@ wang-huixia:
   start:    2023
   email:    Huixia.Wang@ucsf.edu
 
+
 hiroyuki-okamoto:
   name:     Hiroyuki Okamoto
   bio:      Postdoctoral Scholar
@@ -117,7 +118,8 @@ hiroyuki-okamoto:
   current:  true
   start:    2024
   email:    Hiroyuki.Okamoto@ucsf.edu
-  website:   https://orcid.org/0000-0002-4655-2498
+  ORCID:   https://orcid.org/0000-0002-4655-2498
+  gscholar:   https://scholar.google.com/citations?user=we46sy0AAAAJ&hl=en&oi=ao 
   twitter:   hhokamoto_en
   
 ## Former members
