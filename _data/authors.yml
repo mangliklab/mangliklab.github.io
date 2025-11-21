@@ -27,16 +27,6 @@ manglik-aashish:
   email:    aashish.manglik@ucsf.edu
   twitter:  AashishManglik
 
-stevens-jakki:
-  name:     Jakki Stevens
-  bio:      Lab Manager Extraordinaire
-  fullbio:  "Jakki is the lab manager for both the Manglik and [Shoichet](https://www.bkslab.org/) Labs with expertise in protein biochemistry. She received my BS in Chemistry at the University of Kansas where she honed her skills in the outer-membrane focused lab of Joanna Slusky before venturing to the GPCR world. With a passion for scientific research and a meticulous attention to detail, Jakki play a pivotal role in ensuring the smooth operation of our cutting-edge research. Jakki facilitates the day-to-day activities, coordinate equipment, and assist lab members in achieving their scientific goals."
-  avatar:   /assets/images/stevens-jakki.jpg
-  member:   true
-  current:  true
-  start:    2022
-  email:    jacqueline.stevens@ucsf.edu
-
 billesboelle-christian:
   name:     Christian Billesbølle
   bio:      Assistant Proffesional Researcher
@@ -89,28 +79,17 @@ srinivasan-karthik:
   start:    2023
   email:    karthik.srinivasan@ucsf.edu
 
-wan-yue:
-  name:     Yue Wan
-  bio:      Postdoctoral Scholar
-  fullbio:  "Yue is from Northeast of China and earned her PhD degree from SIAIS at ShanghaiTech University in 2021. During her doctral studies, she conducted research in Guang Yang's lab at SIAIS and Richard Lerner's lab at Scripps, focusing on the development of membrane protein antibody screening platforms and the discovery of therapeutic antibodies targeting chemokine receptor. Following her PhD, she gained industry experience for eight months before joining Manglik's lab. Currently, her interests lie in generating high-quality nanobody libraries and exploring high-throughput screening methods targeting GPCRs."
-  avatar:   /assets/images/wan-yue.jpg
-  member:   true
-  current:  true
-  start:    2022
-  email:    yue.wan@ucsf.edu
-
 wang-huixia:
   name:     Huixia Wang
   bio:      Postdoctoral Scholar
-  fullbio:  "Huixia comes to the lab from ... continue bio"
+  fullbio:  "Huixia comes to the lab from ... fill this part out!"
   avatar:   /assets/images/wang-huixia.jpg
   member:   true
   current:  true
   start:    2023
   email:    Huixia.Wang@ucsf.edu
 
-
-hiroyuki-okamoto:
+okamoto-hiroyuki:
   name:     Hiroyuki Okamoto
   bio:      Postdoctoral Scholar
   fullbio:  "Hiro came from Japan, where he earned his Ph.D. in Biological Science at the University of Tokyo. He conducted his graduate studies in the lab of Osamu Nureki, where he elucidated the structural basis of melatonin receptors using cryogenic electron microscopy (cryo-EM). After he received his Ph.D., Hiro decided to join the Manglik lab, where he is trying to find ligands of some classA GPCRs using biochemical and biophysical approaches with support from the Human Frontier Science Program (HFSP) Long Term Fellowship (LTF) and the Japan Society for the Promotion of Science (JSPS)."
@@ -123,7 +102,7 @@ hiroyuki-okamoto:
   gscholar:   https://scholar.google.com/citations?user=we46sy0AAAAJ&hl=en&oi=ao 
   twitter:   hhokamoto_en
 
-yile-dai:
+dai-yile:
   name:     Yile Dai
   bio:      Postdoctoral Scholar
   fullbio:  "Yile earned his Ph.D. from Yale University."
@@ -135,8 +114,31 @@ yile-dai:
   ORCID:   
   gscholar:   https://scholar.google.com/citations?user=_qv2I64AAAAJ&hl=en 
   twitter:   
+
+stevens-jakki:
+  name:     Jakki Stevens
+  bio:      Lab Manager Extraordinaire
+  fullbio:  "Jakki is the lab manager for both the Manglik and [Shoichet](https://www.bkslab.org/) Labs with expertise in protein biochemistry. She received my BS in Chemistry at the University of Kansas where she honed her skills in the outer-membrane focused lab of Joanna Slusky before venturing to the GPCR world. With a passion for scientific research and a meticulous attention to detail, Jakki play a pivotal role in ensuring the smooth operation of our cutting-edge research. Jakki facilitates the day-to-day activities, coordinate equipment, and assist lab members in achieving their scientific goals."
+  avatar:   /assets/images/stevens-jakki.jpg
+  member:   true
+  current:  true
+  start:    2022
+  email:    jacqueline.stevens@ucsf.edu
   
 ## Former members
+
+
+wan-yue:
+  name:     Yue Wan
+  bio:      Postdoctoral Scholar
+  fullbio:  "Yue is from Northeast of China and earned her PhD degree from SIAIS at ShanghaiTech University in 2021. During her doctral studies, she conducted research in Guang Yang's lab at SIAIS and Richard Lerner's lab at Scripps, focusing on the development of membrane protein antibody screening platforms and the discovery of therapeutic antibodies targeting chemokine receptor. Following her PhD, she gained industry experience for eight months before joining Manglik's lab. Currently, her interests lie in generating high-quality nanobody libraries and exploring high-throughput screening methods targeting GPCRs."
+  avatar:   /assets/images/wan-yue.jpg
+  member:   true
+  current:  false
+  start:    2022
+  end:      2025
+  email:    yue.wan@ucsf.edu
+  next:     R&D at Twist
 
 webb-chase:
   name:     Chase Webb
@@ -147,6 +149,7 @@ webb-chase:
   current:  false
   end:      2023
   email:    chase.webb@ucsf.edu
+  next:     Postdoc Javitch lab
 
 hoppe-nick:
   name:     Nick Hoppe
@@ -157,6 +160,7 @@ hoppe-nick:
   current:  false
   end:      2023
   email:    nick.hoppe@ucsf.edu
+  next:     Consultant at McKinsey 
 
 faust-bryan:
   name:     Bryan Faust
@@ -167,6 +171,7 @@ faust-bryan:
   current:  false
   end:      2022
   email:    bryan.faust@ucsf.edu
+  next:     Deal analyist at A16Z
 
 barsirhyne-benjamin:
   name:     Benjamin Barsi-Rhyne
