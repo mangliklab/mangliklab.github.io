@@ -36,11 +36,37 @@ billesboelle-christian:
   current:  true
   email:    christianbache.billesboelle@ucsf.edu
 
+dai-yile:
+  name:     Yile Dai
+  bio:      Postdoctoral Scholar
+  fullbio:  "Yile earned his Ph.D. from Yale University."
+  avatar:   /assets/images/gpcr.jpg
+  member:   true
+  current:  true
+  start:    2024
+  email:    Yile.Dai@ucsf.edu
+  ORCID:   
+  gscholar:   https://scholar.google.com/citations?user=_qv2I64AAAAJ&hl=en 
+  twitter:  
+
+llinas-claudia:
+  name:     Claudia Llinas del Torrent
+  bio:      Postdoctoral Scholar
+  fullbio:  "Claudia bio to fill in"
+  avatar:   /assets/images/gpcr.jpg
+  member:   true
+  current:  true
+  start:    2024
+  email:    Claudia.LlinasdelTorrentMasachs@ucsf.edu
+  ORCID:   
+  gscholar: 
+  twitter:  
+
 harrison-simone:
   name:     Simone Harrison
   bio:      Graduate student, Biophysics
   fullbio:  "Simone received her bachelor’s degree in Molecular Biology and Biochemistry from Wesleyan University in 2018. At Wesleyan, she worked in the Olson lab to study the biophysical properties of novel pathogenic proteins from the genus Vibrio. After college, Simone worked for 2 years at Vanderbilt University in the Chazin lab as a Research Assistant, studying the structural basis of nutrient sequestration and inflammation mediated by S100 proteins, and aiding with protein production. In the Manglik lab, she is studying the molecular details of the interaction between GPCRs and GRKs, as well as the mechanism of GPCR mediated regulation of the hedgehog signaling pathway."
-  avatar:   /assets/images/harrison-simone.jpg
+  avatar:   /assets/images/gpcr.jpg
   member:   true
   current:  true
   email:    simone.harrison@ucsf.edu
@@ -69,25 +95,19 @@ howard-matthew:
   gscholar:  https://scholar.google.com/citations?user=bOu5znYAAAAJ&hl=en
   ORCID:   https://orcid.org/0000-0002-2128-2065
 
-srinivasan-karthik:
-  name:     Karthik Srinivasan
-  bio:      Postdoctoral Scholar
-  fullbio:  "Karthik earned his Bachelor of Engineering in Mechanical Engineering and his Master of Science in Biological Sciences from BITS Pilani Goa Campus in India. During his Master’s thesis, he conducted research as a visiting student in the lab of Andre Hoelz at Caltech, focusing on elucidating the structure of a multiprotein component of the nuclear pore complex. Pursuing his doctoral studies, Karthik transitioned to the lab of Nicholas Noinaj at Purdue University, where he devised an innovative approach to isolate the chloroplast import machinery from plant biomass. Deepening his engagement with membrane protein structural biology, Karthik then joined the Manglik lab where he presently investigates the thyroid stimulating hormone receptor and its implications in autoimmune thyroid diseases."
-  avatar:   /assets/images/srinivasan-karthik.jpg
+mehrotra-eshan: 
+  name:     Eshan Mehrotra
+  bio:      Graduate student (MSTP)
+  fullbio:  "Eshan's bio to fill in"
+  avatar:    /assets/images/mehrotra-eshan.jpg
   member:   true
-  current:  true
-  start:    2023
-  email:    karthik.srinivasan@ucsf.edu
-
-wang-huixia:
-  name:     Huixia Wang
-  bio:      Postdoctoral Scholar
-  fullbio:  "Huixia comes to the lab from ... fill this part out!"
-  avatar:   /assets/images/wang-huixia.jpg
-  member:   true
-  current:  true
-  start:    2023
-  email:    Huixia.Wang@ucsf.edu
+  current:  true 
+  start:    2024
+  email:    Eshan.Mehrotra@ucsf.edu
+  website:  
+  twitter:  
+  gscholar: 
+  ORCID:   
 
 okamoto-hiroyuki:
   name:     Hiroyuki Okamoto
@@ -102,18 +122,26 @@ okamoto-hiroyuki:
   gscholar:   https://scholar.google.com/citations?user=we46sy0AAAAJ&hl=en&oi=ao 
   twitter:   hhokamoto_en
 
-dai-yile:
-  name:     Yile Dai
-  bio:      Postdoctoral Scholar
-  fullbio:  "Yile earned his Ph.D. from Yale University."
-  avatar:   
+santiago-luis:
+  name:     Luis Santiago
+  bio:      Graduate student, PSPG (joint with [Von Zastrow Lab](https://sites.google.com/view/vzlab/home))
+  fullbio:  "Luis grew up in Los Angeles and practiced computational modeling at CSU Northridge. He worked at Labcorp Drug Development before joining the UCSF Pharmaceutical Sciences and Pharmacogenomics program as a PhD student. Besides doing science, Luis also loves cooking and baking. His latest creation was chocoflan!"
+  avatar:   /assets/images/gpcr.jpg
   member:   true
   current:  true
-  start:    2024
-  email:    Yile.Dai@ucsf.edu
-  ORCID:   
-  gscholar:   https://scholar.google.com/citations?user=_qv2I64AAAAJ&hl=en 
-  twitter:   
+  email:    luis.santiago@ucsf.edu
+  twitter:  
+  website:  
+
+srinivasan-karthik:
+  name:     Karthik Srinivasan
+  bio:      Postdoctoral Scholar
+  fullbio:  "Karthik earned his Bachelor of Engineering in Mechanical Engineering and his Master of Science in Biological Sciences from BITS Pilani Goa Campus in India. During his Master’s thesis, he conducted research as a visiting student in the lab of Andre Hoelz at Caltech, focusing on elucidating the structure of a multiprotein component of the nuclear pore complex. Pursuing his doctoral studies, Karthik transitioned to the lab of Nicholas Noinaj at Purdue University, where he devised an innovative approach to isolate the chloroplast import machinery from plant biomass. Deepening his engagement with membrane protein structural biology, Karthik then joined the Manglik lab where he presently investigates the thyroid stimulating hormone receptor and its implications in autoimmune thyroid diseases."
+  avatar:   /assets/images/srinivasan-karthik.jpg
+  member:   true
+  current:  true
+  start:    2023
+  email:    karthik.srinivasan@ucsf.edu
 
 stevens-jakki:
   name:     Jakki Stevens
@@ -124,9 +152,28 @@ stevens-jakki:
   current:  true
   start:    2022
   email:    jacqueline.stevens@ucsf.edu
+
+velilla-josé:
+  name:     José Velilla
+  bio:      Postdoctoral Scholar (HHMI Hanna Grey Fellow)
+  fullbio:  "The “resolution revolution” in structural biology has yielded unprecedented insights into the molecular mechanisms that enable protein function. Yet, these insights fall short of delivering a full understanding, as they lack the crucial context of the cellular environment. José Velilla is leveraging advances in the fields of electron microscopy and mass spectrometry to bridge the atomic and cellular scales in understanding G protein-coupled receptor signaling from unconventional cell locations. G protein-coupled receptors are critical to a variety of physiological processes, including sight, taste, blood pressure regulation, and glucose metabolism."
+  avatar:   /assets/images/velilla-jose.jpg
+  member:   true
+  current:  true
+  start:    2024
+  email:    Jose.Velilla@ucsf.edu
+
+wang-huixia:
+  name:     Huixia Wang
+  bio:      Postdoctoral Scholar
+  fullbio:  "Huixia comes to the lab from ... fill this part out!"
+  avatar:   /assets/images/wang-huixia.jpg
+  member:   true
+  current:  true
+  start:    2023
+  email:    Huixia.Wang@ucsf.edu 
   
 ## Former members
-
 
 wan-yue:
   name:     Yue Wan
@@ -182,6 +229,7 @@ barsirhyne-benjamin:
   current:  false
   end:      2022
   email:    ben.barsirhyne@gmail.com
+  next:     Scientist at Vicinitas Therapeutics
 
 harris-julian:
   name:     Julian Harris
@@ -192,6 +240,8 @@ harris-julian:
   current:  false
   end:      2022
   email:    julian.harris@ucsf.edu
+  next:     University of Deleware
+
 
 orourk-melanie:
   name:     Melanie O'Rourke
@@ -203,6 +253,7 @@ orourk-melanie:
   start:     
   end:      2022
   email:    morourke.ucsf@gmail.com
+  next:     Lab operations at Glyphic 
 
 deshpande-ishan:
   name:     Ishan Deshpande
@@ -214,6 +265,7 @@ deshpande-ishan:
   start:    
   end:      2022
   email:    ishan.deshpande@ucsf.edu
+  next:     Principal scientist at Genentech
 
 obgonna-dora:
   name:     Dora Obgonna
