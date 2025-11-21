@@ -170,7 +170,7 @@ velilla-josé:
   name:     José Velilla
   bio:      Postdoctoral Scholar (HHMI Hanna Grey Fellow)
   fullbio:  "The “resolution revolution” in structural biology has yielded unprecedented insights into the molecular mechanisms that enable protein function. Yet, these insights fall short of delivering a full understanding, as they lack the crucial context of the cellular environment. José Velilla is leveraging advances in the fields of electron microscopy and mass spectrometry to bridge the atomic and cellular scales in understanding G protein-coupled receptor signaling from unconventional cell locations. G protein-coupled receptors are critical to a variety of physiological processes, including sight, taste, blood pressure regulation, and glucose metabolism."
-  avatar:   /assets/images/velilla-jose.jpg
+  avatar:   /assets/images/velilla-jose.png
   member:   true
   current:  true
   start:    2024
@@ -179,7 +179,7 @@ velilla-josé:
 wang-huixia:
   name:     Huixia Wang
   bio:      Postdoctoral Scholar
-  fullbio:  "Huixia earned her PhD in the Wüthrich laboratory at the University of Chinese Academy of Sciences"
+  fullbio:  "Huixia earned her PhD in the Wüthrich laboratory at the University of Chinese Academy of Sciences."
   avatar:   /assets/images/wang-huixia.jpg
   member:   true
   current:  true
@@ -231,7 +231,7 @@ faust-bryan:
   current:  false
   end:      2022
   email:    bryan.faust@ucsf.edu
-  next:     Deal analyist at A16Z
+  next:     Deal analyst at A16Z
 
 barsirhyne-benjamin:
   name:     Benjamin Barsi-Rhyne
