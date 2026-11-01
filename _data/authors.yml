@@ -223,6 +223,11 @@ wan-yue:
   email:    yue.wan@ucsf.edu
   next:     R&D at Twist
 
+li-linus:
+  name:     Linus Li
+  member:   true
+  current:  false
+
 webb-chase:
   name:     Chase Webb
   bio:      Graduate student, [PSPG](https://pspg.ucsf.edu/) (joint with [Shoichet Lab](https://www.bkslab.org/))

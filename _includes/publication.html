@@ -1,0 +1,49 @@
+{%- comment -%}
+  One publication entry from _data/publications.json.
+  Usage: {% include publication.html pub=pub %}
+  Long author lists are shortened to the first three, the last author, and any
+  lab members (authors in pub.lab_authors, shown in bold).
+{%- endcomment -%}
+{%- assign pub = include.pub -%}
+{%- assign n = pub.authors | size -%}
+{%- assign paper_url = pub.url -%}
+{%- if pub.doi and pub.doi != "" -%}{%- assign paper_url = "https://doi.org/" | append: pub.doi -%}{%- endif -%}
+{%- assign pdb_count = pub.pdbs | size -%}
+<article class="pub">
+  <a class="pub__title" href="{{ paper_url }}">{{ pub.title | escape }}</a>
+  <div class="pub__authors">
+    {%- assign printed = false -%}
+    {%- assign skipped = false -%}
+    {%- for author in pub.authors -%}
+      {%- assign is_lab = false -%}
+      {%- if pub.lab_authors contains author -%}{%- assign is_lab = true -%}{%- endif -%}
+      {%- if n <= 10 or forloop.index <= 3 or forloop.last or is_lab -%}
+        {%- if printed %}, {% endif -%}
+        {%- if skipped %}&hellip;, {% endif -%}
+        {%- if is_lab %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif -%}
+        {%- assign printed = true -%}
+        {%- assign skipped = false -%}
+      {%- else -%}
+        {%- assign skipped = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  <div class="pub__meta">
+    <em class="pub__journal">{{ pub.journal }}</em>
+    <a href="{{ pub.url }}">PubMed</a>
+    {%- if pub.pmcid and pub.pmcid != "" %} <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}/">Free full text</a>{% endif %}
+    {%- if pub.preprint_doi and pub.preprint_doi != "" %} <a href="https://doi.org/{{ pub.preprint_doi }}">Preprint</a>{% endif %}
+  </div>
+  {%- if pdb_count > 0 %}
+  <div class="pub__pdbs">
+    <span class="pub__pdb-label">PDB</span>
+    {%- for id in pub.pdbs limit: 6 %} <a href="https://www.rcsb.org/structure/{{ id }}">{{ id }}</a>{% endfor %}
+    {%- if pdb_count > 6 %}
+    <details>
+      <summary>{{ pdb_count | minus: 6 }} more</summary>
+      {%- for id in pub.pdbs offset: 6 %} <a href="https://www.rcsb.org/structure/{{ id }}">{{ id }}</a>{% endfor %}
+    </details>
+    {%- endif %}
+  </div>
+  {%- endif %}
+</article>

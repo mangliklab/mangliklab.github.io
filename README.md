@@ -24,3 +24,16 @@ Getting started
 Please test your changes locally before pushing.
 
 See lab manual for instructions on how to add yourself to the website!
+
+Publications
+============
+
+The Publications page is built from `_data/publications.json`, which is generated
+from PubMed; don't edit it by hand. On the 1st of each month a GitHub Action opens
+a pull request with any new papers. Merge it to publish them. To update sooner,
+open the Actions tab and run "Refresh publications".
+
+Curation lives in `_data/publication_overrides.yml`: leave papers off, add ones the
+search misses, list extra spellings of lab members' names, and adjust per-paper
+details. Authors are bolded when they match someone in `_data/authors.yml`. PDB codes
+are looked up automatically from RCSB, using each entry's primary citation.

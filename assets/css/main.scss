@@ -9,3 +9,107 @@ $max-width: 100%;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Publications page
+.pub-intro {
+  color: $muted-text-color;
+  font-size: $type-size-6;
+}
+
+.pub-years {
+  background: $background-color;
+  border-bottom: 1px solid $border-color;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: $type-size-6;
+  gap: 0.2em 0.9em;
+  padding: 0.6em 0;
+
+  // Stays in view on larger screens; on phones it would take up too much height.
+  @media (min-width: $medium) {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.page__content h2.pub-year {
+  border-bottom: 0;
+  font-size: $type-size-3;
+  margin: 2em 0 0.25em;
+  scroll-margin-top: 4.5em;
+}
+
+.pub {
+  border-top: 1px solid $border-color;
+  padding: 0.9em 0;
+}
+
+.page__content a.pub__title {
+  color: $text-color;
+  display: block;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.3em;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.pub__authors {
+  color: $muted-text-color;
+  font-size: $type-size-6;
+  line-height: 1.5;
+
+  strong {
+    color: $text-color;
+  }
+}
+
+.pub__meta,
+.pub__pdbs {
+  font-size: $type-size-6;
+  margin-top: 0.35em;
+
+  a {
+    margin-right: 0.8em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.pub__journal {
+  margin-right: 0.8em;
+}
+
+.pub__pdbs {
+  font-family: $monospace;
+
+  a {
+    margin-right: 0.5em;
+  }
+
+  details {
+    display: inline;
+  }
+
+  summary {
+    cursor: pointer;
+    display: inline;
+    font-family: $sans-serif;
+  }
+}
+
+.pub__pdb-label {
+  color: $muted-text-color;
+  margin-right: 0.5em;
+}

@@ -1,0 +1,33 @@
+# Manual curation for the publication list. The fetch script reads this file
+# and never writes to it, so anything you put here survives the monthly refresh.
+#
+# After editing, regenerate the list:  python scripts/fetch_publications.py
+# (or run the "Refresh publications" workflow from the Actions tab).
+
+# Papers to leave off the list. The search is on Aashish's full name, so papers
+# by other A. Mangliks don't come up; this is for duplicates and the like.
+exclude:
+  - 34031651   # Nsp2 preprint on Research Square; the bioRxiv copy (34013269) is kept
+
+# Lab papers the author search misses, usually because the lab is credited
+# through a consortium rather than by name.
+include:
+  - 33082574   # Bi-paratopic and multivalent VH domains, Nat Chem Biol 2021 (QCRG)
+
+# Lab members are bolded when an author's first and last name match
+# _data/authors.yml. List the PubMed spelling here for anyone it misses.
+lab_author_names:
+  - Hoppe N                  # "Nicholas" in PubMed, "Nick" on the Members page
+  - Del Torrent CL           # Claudia Llinas del Torrent
+  - Del Torrent Masachs CL   # Claudia Llinas del Torrent
+
+# Preprint -> published, for the handful the script can't link on its own.
+#
+# It tries PubMed's own UpdateIn link, this map, a title match, then a matching
+# author list. If a preprint still shows up as "unlinked" in the run log and you
+# know it was published, add it here as  preprint_pmid: published_pmid
+supersedes: {}
+
+# Per-paper additions merged into the JSON, keyed by PMID. PDB codes are looked up
+# automatically from RCSB; setting pdbs here replaces that list for the paper.
+extra: {}

@@ -81,7 +81,9 @@ layout: single
 
 ### {{ member.name }}
 
+{% if member.bio %}
 **{{ member.bio }}**{% if member.start %} ({{ member.start }}{% if member.end %}&ndash;{{ member.end }}{% endif %}){% elsif member.end %} (until {{ member.end }}){% endif %}{% if member.next %}<br>Next: {{ member.next }}{% endif %}
+{% endif %}
 {% endunless %}
 {% endif %}
 {% endfor %}

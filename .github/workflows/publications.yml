@@ -1,0 +1,47 @@
+name: Refresh publications
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"   # 09:00 UTC on the 1st of each month
+  workflow_dispatch:       # also runnable by hand from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Fetch from PubMed
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python scripts/fetch_publications.py
+
+      # PRs opened with the default token don't trigger other workflows, so
+      # check here that the site still builds with the new data.
+      - name: Build site
+        uses: actions/jekyll-build-pages@v1
+
+      - name: Open a pull request if anything changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: _data/publications.json
+          commit-message: "Refresh publications from PubMed"
+          branch: auto/publications
+          delete-branch: true
+          title: "Refresh publications from PubMed"
+          body: |
+            Automated monthly pull from PubMed.
+
+            Check the diff, then merge to publish. To leave a paper off, add its
+            PMID to `exclude:` in `_data/publication_overrides.yml` rather than
+            deleting it here, or it will come back next month.

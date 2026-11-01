@@ -3,27 +3,21 @@ permalink: /publications/
 title: "Publications"
 ---
 
-{% assign posts = site.posts %}
+{% comment %}
+  _data/publications.json is generated from PubMed by scripts/fetch_publications.py
+  (monthly, via a pull request). Don't edit it by hand: curate in
+  _data/publication_overrides.yml instead.
+{% endcomment %}
+{% assign by_year = site.data.publications | group_by: "year" %}
 
-{% for article in posts %}
-{% if article.publication %}
-### {{article.title}}
-{% assign length = article.authors | size %}
-{% assign i = 2 %}
-{% for author in article.authors %}{{author}}{%if i < length%}, {%elsif i == length%}{%if length > 2%},{%endif%} and {%else%}{%endif%}{%assign i = i | plus: 1%}{% endfor %}
+<p class="pub-intro">Lab members are shown in bold. Papers are also listed on <a href="https://pubmed.ncbi.nlm.nih.gov/?term=%22Manglik%2C+Aashish%22%5BFull+Author+Name%5D">PubMed</a>.</p>
 
-Published in {%if article.doi%}[*{{article.journal}}*](https://doi.org/{{article.doi}}){%else%}*{{article.journal}}*{%endif%}.
+<nav class="pub-years" aria-label="Jump to year">
+{%- for group in by_year %}<a data-scroll-ignore href="#{{ group.name }}">{{ group.name }}</a>{% endfor -%}
+</nav>
 
-<!--
-{% if article.pdbs %}
-{% assign length = article.pdbs | size %}
-PDB{%if length > 1%}s{%endif%}: {% for pdb in article.pdbs %} [{{pdb}}](https://doi.org/10.2210/pdb{{pdb}}/pdb){% endfor %}
-{% endif %}
--->
-<hr>
-{% endif %}
+{% for group in by_year %}
+<h2 class="pub-year" id="{{ group.name }}">{{ group.name }}</h2>
+
+{% for pub in group.items %}{% include publication.html pub=pub %}{% endfor %}
 {% endfor %}
-
-# All articles and reviews
-
-[Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/?term=aashish+manglik)
