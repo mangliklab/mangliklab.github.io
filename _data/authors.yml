@@ -27,15 +27,6 @@ manglik-aashish:
   email:    aashish.manglik@ucsf.edu
   twitter:  AashishManglik
 
-billesboelle-christian:
-  name:     Christian Billesbølle
-  bio:      Assistant Proffesional Researcher
-  fullbio:  "Christian hails from Denmark, where he received a bachelor's degree in Pharmacy and a master's degree in Human Biology at the University of Copenhagen. He conducted his graduate studies in the lab of Ulrik Gether, where he studied the mechanism of the prototypical transmembrane transporter LeuT by new spectroscopic methods. Christian spent a year in the laboratory of Jonathan Javitch as a visiting Bikuben research scholar. After a short postdoc in the lab of Hans Bräuner-Osborne's lab, Christian decided to come to the states. In the Manglik lab, he is examining the structural and biophysical basis of iron transport with support from the [Alfred Benzon Foundation](https://www.benzon-foundation.dk/)."
-  avatar:   /assets/images/billesboelle-christian.jpg
-  member:   true
-  current:  true
-  email:    christianbache.billesboelle@ucsf.edu
-
 dai-yile:
   name:     Yile Dai
   bio:      Postdoctoral Scholar
@@ -70,8 +61,8 @@ hogan-daniel:
 
 howard-matthew: 
   name:     Matthew Howard 
-  bio:      Graduate student,[Tetrad](https://tetrad.ucsf.edu/) (joint with [Coyote-Maestas Lab](http://wcoyotelab.com))
-  fullbio:  "Matt comes to the Manglik Lab by way of Washington University in St. Louis where he studied chemistry and biology. At WashU, he worked in the Jackrel Lab to engineer protein disagreggases and investigate microbial amyloid proteins. In the Manglik Lab, Matt develops high-throughput screening assays to enable deep mutational scanning of many GPCR phenotypes. These approaches are applied across diverse receptor systems to study the fundamental principles of ligand recognition and signal transduction"
+  bio:      Graduate student, [Tetrad](https://tetrad.ucsf.edu/) (joint with [Coyote-Maestas Lab](http://wcoyotelab.com))
+  fullbio:  "Matt comes to the Manglik Lab by way of Washington University in St. Louis where he studied chemistry and biology. At WashU, he worked in the Jackrel Lab to engineer protein disaggregases and investigate microbial amyloid proteins. In the Manglik Lab, Matt develops high-throughput screening assays to enable deep mutational scanning of many GPCR phenotypes. These approaches are applied across diverse receptor systems to study the fundamental principles of ligand recognition and signal transduction."
   avatar:    /assets/images/howard-matthew.jpg
   member:   true
   current:  true 
@@ -156,19 +147,9 @@ srinivasan-karthik:
   start:    2023
   email:    karthik.srinivasan@ucsf.edu
 
-stevens-jakki:
-  name:     Jakki Stevens
-  bio:      Lab Manager Extraordinaire
-  fullbio:  "Jakki is the lab manager for both the Manglik and [Shoichet](https://www.bkslab.org/) Labs with expertise in protein biochemistry. She received my BS in Chemistry at the University of Kansas where she honed her skills in the outer-membrane focused lab of Joanna Slusky before venturing to the GPCR world. With a passion for scientific research and a meticulous attention to detail, Jakki play a pivotal role in ensuring the smooth operation of our cutting-edge research. Jakki facilitates the day-to-day activities, coordinate equipment, and assist lab members in achieving their scientific goals."
-  avatar:   /assets/images/stevens-jakki.jpg
-  member:   true
-  current:  true
-  start:    2022
-  email:    jacqueline.stevens@ucsf.edu
-
 velilla-josé:
   name:     José Velilla
-  bio:      Postdoctoral Scholar (HHMI Hanna Grey Fellow)
+  bio:      Postdoctoral Scholar (HHMI Hanna Gray Fellow)
   fullbio:  "The “resolution revolution” in structural biology has yielded unprecedented insights into the molecular mechanisms that enable protein function. Yet, these insights fall short of delivering a full understanding, as they lack the crucial context of the cellular environment. José Velilla is leveraging advances in the fields of electron microscopy and mass spectrometry to bridge the atomic and cellular scales in understanding G protein-coupled receptor signaling from unconventional cell locations. G protein-coupled receptors are critical to a variety of physiological processes, including sight, taste, blood pressure regulation, and glucose metabolism."
   avatar:   /assets/images/velilla-jose.png
   member:   true
@@ -187,6 +168,30 @@ wang-huixia:
   email:    Huixia.Wang@ucsf.edu 
   
 ## Former members
+
+stevens-jakki:
+  name:     Jakki Stevens
+  bio:      Lab Manager
+  fullbio:  "Jakki is the lab manager for both the Manglik and [Shoichet](https://www.bkslab.org/) Labs with expertise in protein biochemistry. She received my BS in Chemistry at the University of Kansas where she honed her skills in the outer-membrane focused lab of Joanna Slusky before venturing to the GPCR world. With a passion for scientific research and a meticulous attention to detail, Jakki play a pivotal role in ensuring the smooth operation of our cutting-edge research. Jakki facilitates the day-to-day activities, coordinate equipment, and assist lab members in achieving their scientific goals."
+  avatar:   /assets/images/stevens-jakki.jpg
+  member:   true
+  current:  false
+  start:    2022
+  end:      2026
+  next:     Lab operations at a startup
+  email:    jacqueline.stevens@ucsf.edu
+
+billesboelle-christian:
+  name:     Christian Billesbølle
+  bio:      Assistant Professional Researcher
+  fullbio:  "Christian hails from Denmark, where he received a bachelor's degree in Pharmacy and a master's degree in Human Biology at the University of Copenhagen. He conducted his graduate studies in the lab of Ulrik Gether, where he studied the mechanism of the prototypical transmembrane transporter LeuT by new spectroscopic methods. Christian spent a year in the laboratory of Jonathan Javitch as a visiting Bikuben research scholar. After a short postdoc in the lab of Hans Bräuner-Osborne's lab, Christian decided to come to the states. In the Manglik lab, he is examining the structural and biophysical basis of iron transport with support from the [Alfred Benzon Foundation](https://www.benzon-foundation.dk/)."
+  avatar:   /assets/images/billesboelle-christian.jpg
+  member:   true
+  current:  false
+  start:    2017
+  end:      2025
+  next:     Principal Scientist at Zealand Pharma
+  email:    christianbache.billesboelle@ucsf.edu
 
 wan-yue:
   name:     Yue Wan
@@ -253,7 +258,7 @@ harris-julian:
   current:  false
   end:      2022
   email:    julian.harris@ucsf.edu
-  next:     University of Deleware
+  next:     University of Delaware
 
 
 orourk-melanie:
