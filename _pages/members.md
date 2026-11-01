@@ -4,10 +4,32 @@ permalink: /members/
 layout: single
 ---
 
+{% comment %}
+  Current members are grouped by their "bio" field in _data/authors.yml:
+  it mentions a professor, a postdoc, or a graduate student; anyone else is Staff.
+{% endcomment %}
+{% assign groups = "PI,Postdocs,Graduate students,Staff" | split: "," %}
+
+{% for group in groups %}
+{% capture cards %}
 {% for author in site.data.authors %}
 {% assign member = author[1] %}
 {% if member.member %}
 {% if member.current %}
+
+{% assign role = member.bio | downcase %}
+{% assign member_group = "Staff" %}
+{% if role contains "professor" %}
+{% assign member_group = "PI" %}
+{% elsif role contains "postdoc" %}
+{% assign member_group = "Postdocs" %}
+{% elsif role contains "graduate" %}
+{% unless role contains "undergraduate" %}
+{% assign member_group = "Graduate students" %}
+{% endunless %}
+{% endif %}
+
+{% if member_group == group %}
 
 ## {{ member.name }}
 
@@ -33,11 +55,21 @@ layout: single
 <div style="clear: both;"></div>
 
 {% endif %}
+
+{% endif %}
 {% endif %}
 {% endfor %}
+{% endcapture %}
 
+{% assign cards = cards | strip %}
+{% if cards != "" %}
+{% unless group == "PI" %}
+# {{ group }}
+{% endunless %}
 
-
+{{ cards }}
+{% endif %}
+{% endfor %}
 
 # Former members
 

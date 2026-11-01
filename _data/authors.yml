@@ -1,7 +1,10 @@
 # This file is used both to populated the members page on the website
 # and to create author profiles for the sidebar of each post or
 # publication. The ordering of the below entries sets the ordering of
-# the members page.
+# the members page, within each group; keep current members in order of
+# tenure, longest in the lab first. Current members are grouped by
+# their bio: it should say "Postdoctoral ..." or "Graduate student ...";
+# anyone else appears under Staff.
 
 # Below is the default form for people in the lab. The first 6 fields
 # (everything before "email") are mandatory.
@@ -26,6 +29,28 @@ manglik-aashish:
   current:  true
   email:    aashish.manglik@ucsf.edu
   twitter:  AashishManglik
+  gscholar: https://scholar.google.com/citations?user=AnxQpE0AAAAJ&hl=en
+
+srinivasan-karthik:
+  name:     Karthik Srinivasan
+  bio:      Postdoctoral Scholar
+  fullbio:  "Karthik earned his Bachelor of Engineering in Mechanical Engineering and his Master of Science in Biological Sciences from BITS Pilani Goa Campus in India. During his Master’s thesis, he conducted research as a visiting student in the lab of Andre Hoelz at Caltech, focusing on elucidating the structure of a multiprotein component of the nuclear pore complex. Pursuing his doctoral studies, Karthik transitioned to the lab of Nicholas Noinaj at Purdue University, where he devised an innovative approach to isolate the chloroplast import machinery from plant biomass. Deepening his engagement with membrane protein structural biology, Karthik then joined the Manglik lab where he presently investigates the thyroid stimulating hormone receptor and its implications in autoimmune thyroid diseases."
+  avatar:   /assets/images/srinivasan-karthik.jpg
+  member:   true
+  current:  true
+  start:    2023
+  email:    karthik.srinivasan@ucsf.edu
+  gscholar: https://scholar.google.com/citations?user=mvMcJSoAAAAJ&hl=en
+
+wang-huixia:
+  name:     Huixia Wang
+  bio:      Postdoctoral Scholar
+  fullbio:  "Huixia earned her PhD in the Wüthrich laboratory at the University of Chinese Academy of Sciences."
+  avatar:   /assets/images/wang-huixia.jpg
+  member:   true
+  current:  true
+  start:    2023
+  email:    Huixia.Wang@ucsf.edu
 
 dai-yile:
   name:     Yile Dai
@@ -47,6 +72,7 @@ harrison-simone:
   avatar:   /assets/images/gpcr.png
   member:   true
   current:  true
+  start:    2021
   email:    simone.harrison@ucsf.edu
 
 hogan-daniel:
@@ -99,6 +125,18 @@ llinas-claudia:
   gscholar: 
   twitter: 
 
+santiago-luis:
+  name:     Luis Santiago
+  bio:      Graduate student, PSPG (joint with [Von Zastrow Lab](https://sites.google.com/view/vzlab/home))
+  fullbio:  "Luis grew up in Los Angeles and practiced computational modeling at CSU Northridge. He worked at Labcorp Drug Development before joining the UCSF Pharmaceutical Sciences and Pharmacogenomics program as a PhD student. Besides doing science, Luis also loves cooking and baking. His latest creation was chocoflan!"
+  avatar:   /assets/images/gpcr.png
+  member:   true
+  current:  true
+  start:    2022
+  email:    luis.santiago@ucsf.edu
+  twitter:  
+  website:
+
 mehrotra-eshan: 
   name:     Eshan Mehrotra
   bio:      Graduate student (MSTP)
@@ -126,27 +164,6 @@ okamoto-hiroyuki:
   gscholar:   https://scholar.google.com/citations?user=we46sy0AAAAJ&hl=en&oi=ao 
   twitter:   hhokamoto_en
 
-santiago-luis:
-  name:     Luis Santiago
-  bio:      Graduate student, PSPG (joint with [Von Zastrow Lab](https://sites.google.com/view/vzlab/home))
-  fullbio:  "Luis grew up in Los Angeles and practiced computational modeling at CSU Northridge. He worked at Labcorp Drug Development before joining the UCSF Pharmaceutical Sciences and Pharmacogenomics program as a PhD student. Besides doing science, Luis also loves cooking and baking. His latest creation was chocoflan!"
-  avatar:   /assets/images/gpcr.png
-  member:   true
-  current:  true
-  email:    luis.santiago@ucsf.edu
-  twitter:  
-  website:  
-
-srinivasan-karthik:
-  name:     Karthik Srinivasan
-  bio:      Postdoctoral Scholar
-  fullbio:  "Karthik earned his Bachelor of Engineering in Mechanical Engineering and his Master of Science in Biological Sciences from BITS Pilani Goa Campus in India. During his Master’s thesis, he conducted research as a visiting student in the lab of Andre Hoelz at Caltech, focusing on elucidating the structure of a multiprotein component of the nuclear pore complex. Pursuing his doctoral studies, Karthik transitioned to the lab of Nicholas Noinaj at Purdue University, where he devised an innovative approach to isolate the chloroplast import machinery from plant biomass. Deepening his engagement with membrane protein structural biology, Karthik then joined the Manglik lab where he presently investigates the thyroid stimulating hormone receptor and its implications in autoimmune thyroid diseases."
-  avatar:   /assets/images/srinivasan-karthik.jpg
-  member:   true
-  current:  true
-  start:    2023
-  email:    karthik.srinivasan@ucsf.edu
-
 velilla-josé:
   name:     José Velilla
   bio:      Postdoctoral Scholar (HHMI Hanna Gray Fellow)
@@ -157,16 +174,17 @@ velilla-josé:
   start:    2024
   email:    Jose.Velilla@ucsf.edu
 
-wang-huixia:
-  name:     Huixia Wang
-  bio:      Postdoctoral Scholar
-  fullbio:  "Huixia earned her PhD in the Wüthrich laboratory at the University of Chinese Academy of Sciences."
-  avatar:   /assets/images/wang-huixia.jpg
+whiteman-sara:
+  name:     Sara Whiteman
+  bio:      Graduate student, UCSF/UC Berkeley Bioengineering
+  fullbio:  ""
+  avatar:   /assets/images/gpcr.png
   member:   true
   current:  true
-  start:    2023
-  email:    Huixia.Wang@ucsf.edu 
-  
+  start:    2026
+  email:    Sara.Whiteman@ucsf.edu
+  gscholar: https://scholar.google.com/citations?hl=en&user=UimgjKkAAAAJ
+
 ## Former members
 
 stevens-jakki:
