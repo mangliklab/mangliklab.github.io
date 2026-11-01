@@ -31,8 +31,7 @@
     "pmcid": "",
     "preprint": true,
     "update_in": "",
-    "url": "https://europepmc.org/article/PPR/PPR1345415",
-    "url_label": "Europe PMC",
+    "url": "",
     "lab_authors": [
       "Howard MK",
       "Srinivasan K",
@@ -68,8 +67,7 @@
     "pmcid": "",
     "preprint": true,
     "update_in": "",
-    "url": "https://europepmc.org/article/PPR/PPR1342422",
-    "url_label": "Europe PMC",
+    "url": "",
     "lab_authors": [
       "Srinivasan K",
       "Llinas del Torrent C",
@@ -124,6 +122,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/42749805/",
     "preprint_pmid": "42182464",
     "preprint_doi": "10.64898/2026.05.10.724162",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Srinivasan K",
       "Manglik A"
@@ -201,6 +200,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/42736269/",
     "preprint_pmid": "41000614",
     "preprint_doi": "10.1101/2025.09.19.677468",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Howard MK",
       "Manglik A"
@@ -415,6 +415,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/40930105/",
     "preprint_pmid": "40093123",
     "preprint_doi": "10.1101/2025.02.28.640567",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Billesbølle CB",
       "Manglik A"
@@ -450,6 +451,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/40454334/",
     "preprint_pmid": "39868130",
     "preprint_doi": "10.1101/2025.01.09.632033",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Kim JY",
       "Webb C",
@@ -494,6 +496,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/39753132/",
     "preprint_pmid": "38659943",
     "preprint_doi": "10.1101/2024.04.17.590000",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Howard MK",
       "Hoppe N",
@@ -559,6 +562,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/39478229/",
     "preprint_pmid": "38014344",
     "preprint_doi": "10.1101/2023.11.16.567230",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Billesbølle CB",
       "Llinas Del Torrent C",
@@ -602,6 +606,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/39384768/",
     "preprint_pmid": "38106026",
     "preprint_doi": "10.1101/2023.12.06.570395",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Manglik A"
     ],
@@ -645,6 +650,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/38326651/",
     "preprint_pmid": "37292845",
     "preprint_doi": "10.1101/2023.05.23.540554",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Hoppe N",
       "Harrison S",
@@ -671,8 +677,7 @@
     "pmcid": "",
     "preprint": true,
     "update_in": "",
-    "url": "https://europepmc.org/article/PPR/PPR717862",
-    "url_label": "Europe PMC",
+    "url": "",
     "lab_authors": [
       "Manglik A"
     ]
@@ -744,6 +749,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/37137306/",
     "preprint_pmid": "PPR505553",
     "preprint_doi": "10.1101/2022.06.13.495991",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Billesbølle CB",
       "Manglik A"
@@ -779,6 +785,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/36922591/",
     "preprint_pmid": "PPR587486",
     "preprint_doi": "10.1101/2022.12.20.520951",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Billesbølle CB",
       "Del Torrent CL",
@@ -809,6 +816,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/36250629/",
     "preprint_pmid": "PPR519391",
     "preprint_doi": "10.1101/2022.07.13.499995",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Barsi-Rhyne B",
       "Manglik A"
@@ -844,6 +852,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/35940205/",
     "preprint_pmid": "PPR440449",
     "preprint_doi": "10.1101/2022.01.06.475289",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Faust B",
       "Billesbølle CB",
@@ -879,6 +888,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/35902590/",
     "preprint_pmid": "PPR436076",
     "preprint_doi": "10.1101/2021.12.23.474049",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Hoppe N",
       "Manglik A"
@@ -935,6 +945,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/34711980/",
     "preprint_pmid": "PPR340438",
     "preprint_doi": "10.1101/2021.05.16.444192",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Harris JA",
       "Faust B",
@@ -1093,6 +1104,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/33974910/",
     "preprint_pmid": "32699850",
     "preprint_doi": "10.1101/2020.07.14.203414",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Faust B",
       "Manglik A"
@@ -1129,6 +1141,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/33893299/",
     "preprint_pmid": "PPR91411",
     "preprint_doi": "10.1101/757252",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Manglik A"
     ]
@@ -1168,6 +1181,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/33886552/",
     "preprint_pmid": "PPR183386",
     "preprint_doi": "10.1101/2020.07.01.183079",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Deshpande I",
       "Liang J",
@@ -1249,6 +1263,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/34109255/",
     "preprint_pmid": "32839781",
     "preprint_doi": "10.1101/2020.08.15.20175786",
+    "preprint_server": "medRxiv",
     "lab_authors": [
       "Manglik A"
     ]
@@ -1326,6 +1341,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/33154106/",
     "preprint_pmid": "32817938",
     "preprint_doi": "10.1101/2020.08.08.238469",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Faust B",
       "Hoppe N",
@@ -1369,6 +1385,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/33139559/",
     "preprint_pmid": "PPR93867",
     "preprint_doi": "10.1101/783290",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Liang J",
       "Manglik A"
@@ -1725,6 +1742,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/32855547/",
     "preprint_pmid": "32511497",
     "preprint_doi": "10.1101/2020.04.25.20074856",
+    "preprint_server": "medRxiv",
     "lab_authors": [
       "Manglik A"
     ]
@@ -1755,6 +1773,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/32814342/",
     "preprint_pmid": "PPR117797",
     "preprint_doi": "10.1101/2020.03.16.993006",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Billesbølle CB",
       "Schneider S",
@@ -1812,6 +1831,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/32096468/",
     "preprint_pmid": "PPR104715",
     "preprint_doi": "10.1101/866780",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Manglik A"
     ]
@@ -1988,6 +2008,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/29754753/",
     "preprint_pmid": "PPR9381",
     "preprint_doi": "10.1101/254490",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Manglik A"
     ]
@@ -2045,6 +2066,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/29434346/",
     "preprint_pmid": "PPR27979",
     "preprint_doi": "10.1101/151043",
+    "preprint_server": "bioRxiv",
     "lab_authors": [
       "Manglik A"
     ],

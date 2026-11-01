@@ -87,8 +87,12 @@ $max-width: 100%;
   }
 }
 
-.pub__journal {
+.pub__meta .pub__journal {
   margin-right: 0.8em;
+
+  a {
+    margin-right: 0;
+  }
 }
 
 .pub__pdbs {

@@ -129,8 +129,7 @@ def fetch_preprints():
             "pmcid": rec.get("pmcid", ""),
             "preprint": True,
             "update_in": "",
-            "url": f"https://europepmc.org/article/PPR/{rec['id']}",
-            "url_label": "Europe PMC",
+            "url": "",  # not on PubMed; the page links to the preprint by DOI
         })
     return preprints
 
@@ -316,6 +315,7 @@ def link_preprints(pubs, supersedes):
         if target:
             target.setdefault("preprint_pmid", pre["pmid"])
             target.setdefault("preprint_doi", pre["doi"])
+            target.setdefault("preprint_server", pre["journal"])
             resolved[pre["pmid"]] = how
         else:
             unmatched.append(pre)

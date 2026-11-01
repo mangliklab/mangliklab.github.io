@@ -29,10 +29,14 @@
     {%- endfor -%}
   </div>
   <div class="pub__meta">
+    {%- if pub.preprint and pub.doi and pub.doi != "" %}
+    <em class="pub__journal"><a href="https://doi.org/{{ pub.doi }}">{{ pub.journal }}</a></em>
+    {%- else %}
     <em class="pub__journal">{{ pub.journal }}</em>
-    <a href="{{ pub.url }}">{{ pub.url_label | default: "PubMed" }}</a>
+    {%- endif %}
+    {%- if pub.url and pub.url != "" %} <a href="{{ pub.url }}">PubMed</a>{% endif %}
     {%- if pub.pmcid and pub.pmcid != "" %} <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}/">Free full text</a>{% endif %}
-    {%- if pub.preprint_doi and pub.preprint_doi != "" %} <a href="https://doi.org/{{ pub.preprint_doi }}">Preprint</a>{% endif %}
+    {%- if pub.preprint_doi and pub.preprint_doi != "" %} <a href="https://doi.org/{{ pub.preprint_doi }}">{{ pub.preprint_server | default: "Preprint" }}</a>{% endif %}
   </div>
   {%- if pdb_count > 0 %}
   <div class="pub__pdbs">
