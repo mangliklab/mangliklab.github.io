@@ -30,7 +30,7 @@
   </div>
   <div class="pub__meta">
     <em class="pub__journal">{{ pub.journal }}</em>
-    <a href="{{ pub.url }}">PubMed</a>
+    <a href="{{ pub.url }}">{{ pub.url_label | default: "PubMed" }}</a>
     {%- if pub.pmcid and pub.pmcid != "" %} <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}/">Free full text</a>{% endif %}
     {%- if pub.preprint_doi and pub.preprint_doi != "" %} <a href="https://doi.org/{{ pub.preprint_doi }}">Preprint</a>{% endif %}
   </div>

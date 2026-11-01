@@ -5,6 +5,8 @@ Pull the lab's publications from PubMed and write _data/publications.json.
 Run locally with:      python scripts/fetch_publications.py
 Runs automatically:    monthly, via .github/workflows/publications.yml
 
+PubMed only carries some preprints, so preprints also come from Europe PMC.
+
 Curation happens in _data/publication_overrides.yml, not here. That file lets
 you exclude PMIDs, include papers the author search misses (e.g. consortium
 authorship), list extra spellings of lab members' names, and add per-paper
@@ -42,6 +44,8 @@ MEMBERS = ROOT / "_data" / "authors.yml"
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 RCSB_SEARCH = "https://search.rcsb.org/rcsbsearch/v2/query"
+EUROPE_PMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+PREPRINT_QUERY = 'AUTH:"Manglik A" AND SRC:PPR'
 
 
 def _get(url):
@@ -77,6 +81,58 @@ def fetch_records(pmids):
         records.extend(root.findall(".//PubmedArticle"))
         time.sleep(0.4)
     return records
+
+
+def fetch_preprints():
+    """Aashish's preprints on Europe PMC, in the same shape as parse() returns."""
+    records, cursor = [], "*"
+    while True:
+        url = EUROPE_PMC + "?" + urllib.parse.urlencode({
+            "query": PREPRINT_QUERY, "format": "json", "resultType": "core",
+            "pageSize": 100, "cursorMark": cursor,
+        })
+        data = json.loads(_get(url))
+        records.extend(data["resultList"]["result"])
+        if data.get("nextCursorMark", cursor) == cursor or not data["resultList"]["result"]:
+            break
+        cursor = data["nextCursorMark"]
+
+    preprints = []
+    for rec in records:
+        people = rec.get("authorList", {}).get("author", [])
+        # The search is by initial, so check it's Aashish and not another A. Manglik.
+        if not any(a.get("lastName") == "Manglik"
+                   and (a.get("firstName") or "").startswith("Aashish") for a in people):
+            continue
+
+        authors, full_names = [], []
+        for a in people:
+            if a.get("lastName"):
+                authors.append(f"{a['lastName']} {a.get('initials', '')}".strip())
+                full_names.append((authors[-1], a.get("firstName", ""), a["lastName"]))
+            elif a.get("collectiveName"):
+                authors.append(a["collectiveName"])
+
+        date = rec.get("firstPublicationDate", "")
+        preprints.append({
+            "erratum": False,
+            "pmid": rec["id"],
+            "source_pmid": rec.get("pmid", ""),
+            "title": re.sub(r"<[^>]+>", "", rec.get("title", "")).strip().rstrip("."),
+            "authors": authors,
+            "full_names": full_names,
+            "journal": rec.get("bookOrReportDetails", {}).get("publisher", "Preprint"),
+            "year": int(date[:4]) if date[:4].isdigit() else None,
+            "volume": "",
+            "pages": "",
+            "doi": rec.get("doi", ""),
+            "pmcid": rec.get("pmcid", ""),
+            "preprint": True,
+            "update_in": "",
+            "url": f"https://europepmc.org/article/PPR/{rec['id']}",
+            "url_label": "Europe PMC",
+        })
+    return preprints
 
 
 def text(node, path, default=""):
@@ -366,6 +422,15 @@ def main():
 
     pubs = [parse(a) for a in fetch_records(pmids)]
 
+    # Preprints PubMed doesn't have. Skip any it does, or that have been excluded.
+    known_dois = {p["doi"].lower() for p in pubs if p["doi"]}
+    for pre in fetch_preprints():
+        if pre["doi"].lower() in known_dois:
+            continue
+        if pre["pmid"] in exclude or pre.pop("source_pmid") in exclude:
+            continue
+        pubs.append(pre)
+
     # Corrections ("Author Correction: ...") are their own PubMed records.
     pubs = [p for p in pubs if not p.pop("erratum")]
 
@@ -381,9 +446,16 @@ def main():
         if pdbs:
             p["pdbs"] = pdbs
         p.update(overrides["extra"].get(p["pmid"], {}))
-        p.update(overrides["extra"].get(int(p["pmid"]), {}))
+        if p["pmid"].isdigit():
+            p.update(overrides["extra"].get(int(p["pmid"]), {}))
+        p.pop("source_pmid", None)
 
-    pubs.sort(key=lambda p: (p["year"] or 0, int(p["pmid"])), reverse=True)
+    # Within a year, Europe PMC preprints (no PMID) come first.
+    pubs.sort(
+        key=lambda p: (p["year"] or 0, not p["pmid"].isdigit(),
+                       int(re.sub(r"\D", "", p["pmid"]))),
+        reverse=True,
+    )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with OUT.open("w") as fh:

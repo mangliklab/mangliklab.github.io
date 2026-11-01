@@ -29,7 +29,7 @@ Publications
 ============
 
 The Publications page is built from `_data/publications.json`, which is generated
-from PubMed; don't edit it by hand. On the 1st of each month a GitHub Action opens
+from PubMed, with preprints also from Europe PMC; don't edit it by hand. On the 1st of each month a GitHub Action opens
 a pull request with any new papers. Merge it to publish them. To update sooner,
 open the Actions tab and run "Refresh publications".
 

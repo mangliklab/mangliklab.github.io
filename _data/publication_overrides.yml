@@ -8,6 +8,7 @@
 # by other A. Mangliks don't come up; this is for duplicates and the like.
 exclude:
   - 34031651   # Nsp2 preprint on Research Square; the bioRxiv copy (34013269) is kept
+  - PPR342630  # The same Research Square copy, as listed on Europe PMC
 
 # Lab papers the author search misses, usually because the lab is credited
 # through a consortium rather than by name.

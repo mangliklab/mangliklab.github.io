@@ -1,5 +1,82 @@
 [
   {
+    "pmid": "PPR1345415",
+    "title": "Distinct activation mechanisms underlie ligand efficacy at a GPCR",
+    "authors": [
+      "Howard MK",
+      "Fine EJ",
+      "Srinivasan K",
+      "Richman DD",
+      "Freudenberg J",
+      "Weinberg Z",
+      "Rao J",
+      "Zou Z",
+      "Macdonald C",
+      "Grimes PR",
+      "Varga BR",
+      "Fraser JS",
+      "Von Zastrow M",
+      "Majumdar S",
+      "Pimentel H",
+      "English J",
+      "Dror RO",
+      "Manglik A",
+      "Coyote-Maestas W"
+    ],
+    "journal": "bioRxiv",
+    "year": 2026,
+    "volume": "",
+    "pages": "",
+    "doi": "10.64898/2026.10.12.758633",
+    "pmcid": "",
+    "preprint": true,
+    "update_in": "",
+    "url": "https://europepmc.org/article/PPR/PPR1345415",
+    "url_label": "Europe PMC",
+    "lab_authors": [
+      "Howard MK",
+      "Srinivasan K",
+      "Manglik A"
+    ]
+  },
+  {
+    "pmid": "PPR1342422",
+    "title": "Programming Targeted Immune Cell Migration Using Orthogonal Chemokine-Receptor Pairs",
+    "authors": [
+      "Lee J",
+      "Srinivasan K",
+      "Llinas del Torrent C",
+      "Ghose D",
+      "Shah DH",
+      "Oliva Hernandez L",
+      "Wasinger S",
+      "Chang MJ",
+      "Yu W",
+      "Tonai Y",
+      "Peterson FC",
+      "Szpakowska M",
+      "Chevigné A",
+      "Volkman BF",
+      "Manglik A",
+      "Lim WA"
+    ],
+    "journal": "bioRxiv",
+    "year": 2026,
+    "volume": "",
+    "pages": "",
+    "doi": "10.64898/2026.10.12.758398",
+    "pmcid": "",
+    "preprint": true,
+    "update_in": "",
+    "url": "https://europepmc.org/article/PPR/PPR1342422",
+    "url_label": "Europe PMC",
+    "lab_authors": [
+      "Srinivasan K",
+      "Llinas del Torrent C",
+      "Manglik A"
+    ]
+  },
+  {
     "pmid": "42749805",
     "title": "Development of a random background to understand ligand optimization",
     "authors": [
@@ -579,6 +656,28 @@
     ]
   },
   {
+    "pmid": "PPR717862",
+    "title": "Anionic phospholipids determine G protein coupling selectivity at distinct subcellular membrane compartments",
+    "authors": [
+      "Hernandez EH",
+      "Manglik A",
+      "Irannejad R"
+    ],
+    "journal": "bioRxiv",
+    "year": 2023,
+    "volume": "",
+    "pages": "",
+    "doi": "10.1101/2023.08.31.555797",
+    "pmcid": "",
+    "preprint": true,
+    "update_in": "",
+    "url": "https://europepmc.org/article/PPR/PPR717862",
+    "url_label": "Europe PMC",
+    "lab_authors": [
+      "Manglik A"
+    ]
+  },
+  {
     "pmid": "37828150",
     "title": "Rare antibody phage isolation and discrimination (RAPID) biopanning enables identification of high-affinity antibodies against challenging targets",
     "authors": [
@@ -643,6 +742,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/37137306/",
+    "preprint_pmid": "PPR505553",
+    "preprint_doi": "10.1101/2022.06.13.495991",
     "lab_authors": [
       "Billesbølle CB",
       "Manglik A"
@@ -676,6 +777,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/36922591/",
+    "preprint_pmid": "PPR587486",
+    "preprint_doi": "10.1101/2022.12.20.520951",
     "lab_authors": [
       "Billesbølle CB",
       "Del Torrent CL",
@@ -704,6 +807,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/36250629/",
+    "preprint_pmid": "PPR519391",
+    "preprint_doi": "10.1101/2022.07.13.499995",
     "lab_authors": [
       "Barsi-Rhyne B",
       "Manglik A"
@@ -737,6 +842,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/35940205/",
+    "preprint_pmid": "PPR440449",
+    "preprint_doi": "10.1101/2022.01.06.475289",
     "lab_authors": [
       "Faust B",
       "Billesbølle CB",
@@ -770,6 +877,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/35902590/",
+    "preprint_pmid": "PPR436076",
+    "preprint_doi": "10.1101/2021.12.23.474049",
     "lab_authors": [
       "Hoppe N",
       "Manglik A"
@@ -824,6 +933,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/34711980/",
+    "preprint_pmid": "PPR340438",
+    "preprint_doi": "10.1101/2021.05.16.444192",
     "lab_authors": [
       "Harris JA",
       "Faust B",
@@ -1016,6 +1127,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33893299/",
+    "preprint_pmid": "PPR91411",
+    "preprint_doi": "10.1101/757252",
     "lab_authors": [
       "Manglik A"
     ]
@@ -1053,6 +1166,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33886552/",
+    "preprint_pmid": "PPR183386",
+    "preprint_doi": "10.1101/2020.07.01.183079",
     "lab_authors": [
       "Deshpande I",
       "Liang J",
@@ -1252,6 +1367,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33139559/",
+    "preprint_pmid": "PPR93867",
+    "preprint_doi": "10.1101/783290",
     "lab_authors": [
       "Liang J",
       "Manglik A"
@@ -1636,6 +1753,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/32814342/",
+    "preprint_pmid": "PPR117797",
+    "preprint_doi": "10.1101/2020.03.16.993006",
     "lab_authors": [
       "Billesbølle CB",
       "Schneider S",
@@ -1691,6 +1810,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/32096468/",
+    "preprint_pmid": "PPR104715",
+    "preprint_doi": "10.1101/866780",
     "lab_authors": [
       "Manglik A"
     ]
@@ -1865,6 +1986,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29754753/",
+    "preprint_pmid": "PPR9381",
+    "preprint_doi": "10.1101/254490",
     "lab_authors": [
       "Manglik A"
     ]
@@ -1920,6 +2043,8 @@
     "preprint": false,
     "update_in": "",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29434346/",
+    "preprint_pmid": "PPR27979",
+    "preprint_doi": "10.1101/151043",
     "lab_authors": [
       "Manglik A"
     ],
