@@ -1,5 +1,31 @@
 [
   {
+    "pmid": "PPR1357416",
+    "title": "Mapping the sequence determinants of constitutive activity in GPCRs",
+    "authors": [
+      "Howard MK",
+      "Whiteman S",
+      "Grimes PR",
+      "Macdonald C",
+      "Manglik A",
+      "Coyote-Maestas W"
+    ],
+    "journal": "bioRxiv",
+    "year": 2026,
+    "volume": "",
+    "pages": "",
+    "doi": "10.64898/2026.10.30.762644",
+    "pmcid": "",
+    "preprint": true,
+    "update_in": "",
+    "url": "",
+    "lab_authors": [
+      "Howard MK",
+      "Whiteman S",
+      "Manglik A"
+    ]
+  },
+  {
     "pmid": "PPR1345415",
     "title": "Distinct activation mechanisms underlie ligand efficacy at a GPCR",
     "authors": [
