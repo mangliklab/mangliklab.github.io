@@ -6,6 +6,8 @@ Run locally with:      python scripts/fetch_publications.py
 Runs automatically:    monthly, via .github/workflows/publications.yml
 
 PubMed only carries some preprints, so preprints also come from Europe PMC.
+Papers listed by DOI in the overrides (e.g. just published, not yet on PubMed)
+come from Crossref until PubMed has them.
 
 Curation happens in _data/publication_overrides.yml, not here. That file lets
 you exclude PMIDs, include papers the author search misses (e.g. consortium
@@ -45,6 +47,7 @@ MEMBERS = ROOT / "_data" / "authors.yml"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 RCSB_SEARCH = "https://search.rcsb.org/rcsbsearch/v2/query"
 EUROPE_PMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+CROSSREF = "https://api.crossref.org/works/"
 PREPRINT_QUERY = 'AUTH:"Manglik A" AND SRC:PPR'
 
 
@@ -132,6 +135,39 @@ def fetch_preprints():
             "url": "",  # not on PubMed; the page links to the preprint by DOI
         })
     return preprints
+
+
+def fetch_by_doi(doi):
+    """One paper from Crossref, in the same shape as parse() returns."""
+    rec = json.loads(_get(CROSSREF + urllib.parse.quote(doi)))["message"]
+
+    authors, full_names = [], []
+    for a in rec.get("author", []):
+        family, given = a.get("family", ""), a.get("given", "")
+        if not family:
+            continue
+        initials = "".join(part[0] for part in re.split(r"[\s.\-]+", given) if part)
+        authors.append(f"{family} {initials}".strip())
+        full_names.append((authors[-1], given, family))
+
+    issued = (rec.get("published") or rec.get("issued") or {}).get("date-parts", [[None]])
+    journal = (rec.get("short-container-title") or rec.get("container-title") or [""])[0]
+    return {
+        "erratum": False,
+        "pmid": f"doi:{doi}",
+        "title": re.sub(r"<[^>]+>", "", (rec.get("title") or [""])[0]).strip().rstrip("."),
+        "authors": authors,
+        "full_names": full_names,
+        "journal": journal,
+        "year": issued[0][0],
+        "volume": rec.get("volume", ""),
+        "pages": rec.get("page", ""),
+        "doi": doi,
+        "pmcid": "",
+        "preprint": rec.get("type") == "posted-content",
+        "update_in": "",
+        "url": "",  # not on PubMed yet
+    }
 
 
 def text(node, path, default=""):
@@ -398,11 +434,11 @@ def lab_authors(pub, members, extra_names):
 
 def load_overrides():
     if not OVERRIDES.exists():
-        return {"exclude": [], "include": [], "extra": {},
+        return {"exclude": [], "include": [], "include_dois": [], "extra": {},
                 "supersedes": {}, "lab_author_names": []}
     with OVERRIDES.open() as fh:
         data = yaml.safe_load(fh) or {}
-    for key, empty in [("exclude", []), ("include", []), ("extra", {}), ("supersedes", {}), ("lab_author_names", [])]:
+    for key, empty in [("exclude", []), ("include", []), ("include_dois", []), ("extra", {}), ("supersedes", {}), ("lab_author_names", [])]:
         if data.get(key) is None:
             data[key] = empty
     return data
@@ -430,6 +466,13 @@ def main():
         if pre["pmid"] in exclude or pre.pop("source_pmid") in exclude:
             continue
         pubs.append(pre)
+        known_dois.add(pre["doi"].lower())
+
+    # Papers listed by DOI, until PubMed or Europe PMC has them.
+    for doi in overrides["include_dois"]:
+        if doi.lower() not in known_dois:
+            pubs.append(fetch_by_doi(doi))
+            time.sleep(0.2)
 
     # Corrections ("Author Correction: ...") are their own PubMed records.
     pubs = [p for p in pubs if not p.pop("erratum")]

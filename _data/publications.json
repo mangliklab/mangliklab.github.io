@@ -1,5 +1,45 @@
 [
   {
+    "pmid": "doi:10.1038/s41589-026-02390-z",
+    "title": "An engineered nanobody inhibitor for molecular-to-circuit control of opioid receptors",
+    "authors": [
+      "Valbret Z",
+      "Lamothe-Molina PJ",
+      "Papadogkonaki S",
+      "Koehl A",
+      "Pascoli V",
+      "Arafiles JVV",
+      "Shapiro Tuchman Z",
+      "Fisher NM",
+      "Wang EX",
+      "Radoux-Mergault A",
+      "Canziani A",
+      "Huang GY",
+      "von Zastrow M",
+      "Kosloff M",
+      "Lüscher C",
+      "Hackenberger CPR",
+      "Manglik A",
+      "Patriarchi T",
+      "Stoeber M"
+    ],
+    "journal": "Nat Chem Biol",
+    "year": 2026,
+    "volume": "",
+    "pages": "",
+    "doi": "10.1038/s41589-026-02390-z",
+    "pmcid": "",
+    "preprint": false,
+    "update_in": "",
+    "url": "",
+    "preprint_pmid": "41648494",
+    "preprint_doi": "10.64898/2026.01.12.698943",
+    "preprint_server": "bioRxiv",
+    "lab_authors": [
+      "Manglik A"
+    ]
+  },
+  {
     "pmid": "PPR1357416",
     "title": "Mapping the sequence determinants of constitutive activity in GPCRs",
     "authors": [
@@ -26,7 +66,73 @@
     ]
   },
   {
-    "pmid": "PPR1345415",
+    "pmid": "43057620",
+    "title": "Allosteric Gating Mechanism Regulates Odorant Selectivity and Antagonism in Odorant Receptors",
+    "authors": [
+      "Ma N",
+      "Marie M",
+      "Takase D",
+      "Llinàs Del Torrent Masachs C",
+      "Aguilar J",
+      "Manglik A",
+      "Matsunami H",
+      "Vaidehi N"
+    ],
+    "journal": "J Biol Chem",
+    "year": 2026,
+    "volume": "",
+    "pages": "113778",
+    "doi": "10.1016/j.jbc.2026.113778",
+    "pmcid": "",
+    "preprint": false,
+    "update_in": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43057620/",
+    "preprint_pmid": "42465389",
+    "preprint_doi": "10.64898/2026.07.06.736896",
+    "preprint_server": "bioRxiv",
+    "lab_authors": [
+      "Llinàs Del Torrent Masachs C",
+      "Manglik A"
+    ]
+  },
+  {
+    "pmid": "42999436",
+    "title": "Programming Targeted Immune Cell Migration Using Orthogonal Chemokine-Receptor Pairs",
+    "authors": [
+      "Lee J",
+      "Srinivasan K",
+      "Llinas Del Torrent C",
+      "Ghose D",
+      "Shah DH",
+      "Oliva Hernandez L",
+      "Wasinger S",
+      "Chang MJ",
+      "Yu W",
+      "Tonai Y",
+      "Peterson FC",
+      "Szpakowska M",
+      "Chevigné A",
+      "Volkman BF",
+      "Manglik A",
+      "Lim WA"
+    ],
+    "journal": "bioRxiv",
+    "year": 2026,
+    "volume": "",
+    "pages": "",
+    "doi": "10.64898/2026.10.12.758398",
+    "pmcid": "PMC13742749",
+    "preprint": true,
+    "update_in": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42999436/",
+    "lab_authors": [
+      "Srinivasan K",
+      "Llinas Del Torrent C",
+      "Manglik A"
+    ]
+  },
+  {
+    "pmid": "42999122",
     "title": "Distinct activation mechanisms underlie ligand efficacy at a GPCR",
     "authors": [
       "Howard MK",
@@ -54,49 +160,13 @@
     "volume": "",
     "pages": "",
     "doi": "10.64898/2026.10.12.758633",
-    "pmcid": "",
+    "pmcid": "PMC13742423",
     "preprint": true,
     "update_in": "",
-    "url": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42999122/",
     "lab_authors": [
       "Howard MK",
       "Srinivasan K",
-      "Manglik A"
-    ]
-  },
-  {
-    "pmid": "PPR1342422",
-    "title": "Programming Targeted Immune Cell Migration Using Orthogonal Chemokine-Receptor Pairs",
-    "authors": [
-      "Lee J",
-      "Srinivasan K",
-      "Llinas del Torrent C",
-      "Ghose D",
-      "Shah DH",
-      "Oliva Hernandez L",
-      "Wasinger S",
-      "Chang MJ",
-      "Yu W",
-      "Tonai Y",
-      "Peterson FC",
-      "Szpakowska M",
-      "Chevigné A",
-      "Volkman BF",
-      "Manglik A",
-      "Lim WA"
-    ],
-    "journal": "bioRxiv",
-    "year": 2026,
-    "volume": "",
-    "pages": "",
-    "doi": "10.64898/2026.10.12.758398",
-    "pmcid": "",
-    "preprint": true,
-    "update_in": "",
-    "url": "",
-    "lab_authors": [
-      "Srinivasan K",
-      "Llinas del Torrent C",
       "Manglik A"
     ]
   },
@@ -233,33 +303,6 @@
     ]
   },
   {
-    "pmid": "42465389",
-    "title": "Allosteric Gating Mechanism Regulates Odorant Selectivity and Antagonism in Odorant Receptors",
-    "authors": [
-      "Ma N",
-      "Marie M",
-      "Takase D",
-      "Del Torrent Masachs CL",
-      "Aguilar J",
-      "Manglik A",
-      "Matsunami H",
-      "Vaidehi N"
-    ],
-    "journal": "bioRxiv",
-    "year": 2026,
-    "volume": "",
-    "pages": "",
-    "doi": "10.64898/2026.07.06.736896",
-    "pmcid": "PMC13370400",
-    "preprint": true,
-    "update_in": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42465389/",
-    "lab_authors": [
-      "Del Torrent Masachs CL",
-      "Manglik A"
-    ]
-  },
-  {
     "pmid": "42062516",
     "title": "Hypervariable loop profiling decodes sequence determinants of antibody stability",
     "authors": [
@@ -344,40 +387,6 @@
       "9PNS",
       "9PPQ",
       "9PQD"
-    ]
-  },
-  {
-    "pmid": "41648494",
-    "title": "An engineered nanobody inhibitor for molecular-to-circuit control of opioid receptor function",
-    "authors": [
-      "Valbret Z",
-      "Lamothe-Molina PJ",
-      "Papadogkonaki S",
-      "Koehl A",
-      "Arafiles JVV",
-      "Tuchman ZS",
-      "Fisher NM",
-      "Radoux-Mergault A",
-      "Canziani A",
-      "Huang G",
-      "von Zastrow M",
-      "Kosloff M",
-      "Hackenberger CPR",
-      "Manglik A",
-      "Patriarchi T",
-      "Stoeber M"
-    ],
-    "journal": "bioRxiv",
-    "year": 2026,
-    "volume": "",
-    "pages": "",
-    "doi": "10.64898/2026.01.12.698943",
-    "pmcid": "PMC12871209",
-    "preprint": true,
-    "update_in": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41648494/",
-    "lab_authors": [
-      "Manglik A"
     ]
   },
   {

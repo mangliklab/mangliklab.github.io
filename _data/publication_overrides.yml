@@ -15,12 +15,19 @@ exclude:
 include:
   - 33082574   # Bi-paratopic and multivalent VH domains, Nat Chem Biol 2021 (QCRG)
 
+# Papers by DOI that aren't on PubMed yet, such as ones published in the last few
+# weeks. Details come from Crossref. Once PubMed has a paper, its PubMed record is
+# used instead, so these can stay here or be removed later.
+include_dois:
+  - 10.1038/s41589-026-02390-z   # Engineered nanobody inhibitor of opioid receptors, Nat Chem Biol 2026
+
 # Lab members are bolded when an author's first and last name match
 # _data/authors.yml. List the PubMed spelling here for anyone it misses.
 lab_author_names:
   - Hoppe N                  # "Nicholas" in PubMed, "Nick" on the Members page
   - Del Torrent CL           # Claudia Llinas del Torrent
   - Del Torrent Masachs CL   # Claudia Llinas del Torrent
+  - Llinàs Del Torrent Masachs C   # Claudia Llinas del Torrent
 
 # Preprint -> published, for the handful the script can't link on its own.
 #
